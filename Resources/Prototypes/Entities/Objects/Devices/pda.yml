@@ -132,18 +132,6 @@
 
 - type: entity
   parent: BasePDA
-  id: BlueShieldPDA
-  name: blue shield PDA
-  description: average style.
-  components:
-  - type: PDA
-    id: BlueShieldIDCard
-    state: pda-bs
-  - type: Icon
-    state: pda-bs
-
-- type: entity
-  parent: BasePDA
   id: MedicalInternPDA
   name: medical intern PDA
   description: Why isn't it white? Has a built-in health analyzer.
@@ -157,9 +145,6 @@
     scanDelay: 1.4
     scanningEndSound:
       path: "/Audio/Items/Medical/healthscanner.ogg"
-  - type: GuideHelp
-    guides:
-    - Medical Doctor
 
 - type: entity
   parent: BasePDA
@@ -309,6 +294,12 @@
   - type: PDA
     id: QuartermasterIDCard
     state: pda-qm
+    penSlot:
+      startingItem: QMPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Icon
     state: pda-qm
 
@@ -321,6 +312,12 @@
   - type: PDA
     id: CargoIDCard
     state: pda-cargo
+    penSlot:
+      startingItem: CargoPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Icon
     state: pda-cargo
 
@@ -333,6 +330,12 @@
   - type: PDA
     id: SalvageIDCard
     state: pda-miner
+    penSlot:
+      startingItem: CargoPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Icon
     state: pda-miner
 
@@ -369,6 +372,12 @@
   - type: PDA
     id: LawyerIDCard
     state: pda-lawyer
+    penSlot:
+      startingItem: BlackPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Icon
     state: pda-lawyer
 
@@ -433,6 +442,12 @@
   - type: PDA
     id: CEIDCard
     state: pda-ce
+    penSlot:
+      startingItem: CEPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PDABorderColor
     borderColor: "#949137"
     accentHColor: "#447987"
@@ -448,6 +463,12 @@
   - type: PDA
     id: EngineeringIDCard
     state: pda-engineer
+    penSlot:
+      startingItem: EngPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Icon
     state: pda-engineer
 
@@ -460,6 +481,12 @@
   - type: PDA
     id: CMOIDCard
     state: pda-cmo
+    penSlot:
+      startingItem: CMOPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PDABorderColor
     borderColor: "#d7d7d0"
     accentHColor: "#447987"
@@ -480,6 +507,12 @@
   - type: PDA
     id: MedicalIDCard
     state: pda-medical
+    penSlot:
+      startingItem: MedPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PDABorderColor
     borderColor: "#d7d7d0"
     accentVColor: "#447987"
@@ -489,10 +522,7 @@
     scanDelay: 1.2
     scanningEndSound:
       path: "/Audio/Items/Medical/healthscanner.ogg"
-  - type: GuideHelp
-    guides:
-    - Medical Doctor
-
+      
 - type: entity
   parent: BasePDA
   id: ParamedicPDA
@@ -502,6 +532,12 @@
   - type: PDA
     id: ParamedicIDCard
     state: pda-paramedic
+    penSlot:
+      startingItem: MedPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PDABorderColor
     borderColor: "#d7d7d0"
     accentVColor: "#2a4b5b"
@@ -511,7 +547,7 @@
     scanDelay: 0.5
     scanningEndSound:
       path: "/Audio/Items/Medical/healthscanner.ogg"
-
+      
 - type: entity
   parent: BasePDA
   id: ChemistryPDA
@@ -521,6 +557,12 @@
   - type: PDA
     id: ChemistIDCard
     state: pda-chemistry
+    penSlot:
+      startingItem: ChemPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PDABorderColor
     borderColor: "#d7d7d0"
     accentVColor: "#B34200"
@@ -536,6 +578,12 @@
   - type: PDA
     id: RDIDCard
     state: pda-rd
+    penSlot:
+      startingItem: RDPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Icon
     state: pda-rd
 
@@ -548,6 +596,12 @@
   - type: PDA
     id: ResearchIDCard
     state: pda-science
+    penSlot:
+      startingItem: RnDPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Icon
     state: pda-science
 
@@ -560,6 +614,12 @@
   - type: PDA
     id: HoSIDCard
     state: pda-hos
+    penSlot:
+      startingItem: HoSPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PDABorderColor
     borderColor: "#A32D26"
     accentHColor: "#447987"
@@ -575,6 +635,12 @@
   - type: PDA
     id: WardenIDCard
     state: pda-warden
+    penSlot:
+      startingItem: SecPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Icon
     state: pda-warden
 
@@ -587,6 +653,12 @@
   - type: PDA
     id: SecurityIDCard
     state: pda-security
+    penSlot:
+      startingItem: SecPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Icon
     state: pda-security
 
@@ -633,6 +705,12 @@
   - type: PDA
     id: AtmosIDCard
     state: pda-atmos
+    penSlot:
+      startingItem: EngPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Icon
     state: pda-atmos
 
@@ -751,6 +829,12 @@
   - type: PDA
     id: DetectiveIDCard
     state: pda-detective
+    penSlot:
+      startingItem: SecPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PDABorderColor
     borderColor: "#774705"
   - type: Icon
@@ -765,6 +849,12 @@
   - type: PDA
     id: BrigmedicIDCard
     state: pda-brigmedic
+    penSlot:
+      startingItem: SecPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PDABorderColor
     borderColor: "#A32D26"
     accentHColor: "#d7d7d0"
