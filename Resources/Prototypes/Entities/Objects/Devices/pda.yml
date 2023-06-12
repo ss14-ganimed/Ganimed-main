@@ -661,6 +661,24 @@
         - Write
   - type: Icon
     state: pda-security
+    
+- type: entity
+  parent: BasePDA
+  id: BlueShieldPDA
+  name: blue shield PDA
+  description: average style.
+  components:
+  - type: PDA
+    id: BlueShieldIDCard
+    state: pda-bs
+    penSlot:
+      startingItem: BluePen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: Icon
+    state: pda-bs
 
 - type: entity
   parent: BasePDA
