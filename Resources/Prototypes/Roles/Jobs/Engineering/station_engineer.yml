@@ -6,7 +6,9 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 18000 # SS220-RoleTime
+      time: 21600 # Ganimed-RoleTime (360m)
+    - !type:OverallPlaytimeRequirement
+      time: 28800 # Ganimed-RoleTime (480m)
   startingGear: StationEngineerGear
   icon: "StationEngineer"
   supervisors: job-supervisors-ce

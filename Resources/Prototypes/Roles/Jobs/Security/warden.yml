@@ -6,9 +6,10 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 36000 # Corvax-RoleTime
+      time: 54000 # Ganimed-RoleTime (900m)
   startingGear: WardenGear
   icon: "Warden"
+  requireAdminNotify: true
   supervisors: job-supervisors-hos
   canBeAntag: false
   access:

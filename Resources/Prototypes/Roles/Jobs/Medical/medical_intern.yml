@@ -5,7 +5,7 @@
   playTimeTracker: JobMedicalIntern
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 3600 # SS220-RoleTime
+      time: 7200 # Ganimed-RoleTime (2h)
   startingGear: MedicalInternGear
   icon: "MedicalIntern"
   supervisors: job-supervisors-medicine

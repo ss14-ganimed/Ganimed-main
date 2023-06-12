@@ -6,11 +6,14 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 18000 # SS220-RoleTime
+      time: 43200 # Ganimed-RoleTime (720m)
+    - !type:RoleTimeRequirement # Ganined-RoleTime (1h)
+      role: StationEngineer
+      time: 14400
   startingGear: AtmosphericTechnicianGear
   icon: "AtmosphericTechnician"
   supervisors: job-supervisors-ce
-  antagAdvantage: 10
+  canBeAntag: false
   access:
   - Maintenance
   - Engineering
