@@ -6,7 +6,7 @@
   requirements:
     - !type:RoleTimeRequirement # Ganined-RoleTime (10h)
       role: JobSalvageSpecialist
-      time: 18000
+      time: 36000
     - !type:DepartmentTimeRequirement
       department: Cargo
       time: 54000 # Ganimed-RoleTime (15h)
