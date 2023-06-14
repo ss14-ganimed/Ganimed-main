@@ -6,7 +6,10 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 84000 # SS220-RoleTime
+      time: 72000 # Ganimed-RoleTime (1200m)
+    - !type:RoleTimeRequirement # Ganined-RoleTime (1h)
+      role: JobWarden
+      time: 14400
   weight: 10
   startingGear: HoSGear
   icon: "HeadOfSecurity"

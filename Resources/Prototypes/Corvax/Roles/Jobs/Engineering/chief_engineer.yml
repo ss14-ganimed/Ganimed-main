@@ -6,7 +6,13 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 54000 # SS220-RoleTime
+      time: 86400 # Ganimed-RoleTime (1440m)
+    - !type:RoleTimeRequirement # Ganined-RoleTime (400m)
+      role: JobAtmosphericTechnician
+      time: 24000
+    - !type:RoleTimeRequirement # Ganined-RoleTime (500m)
+      role: StationEngineer
+      time: 30000
   weight: 10
   startingGear: ChiefEngineerGear
   icon: "ChiefEngineer"

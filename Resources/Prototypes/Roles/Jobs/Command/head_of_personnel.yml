@@ -6,7 +6,10 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Command
-      time: 36000 # SS220-RoleTime
+      time: 21600 # Ganimed-RoleTime (360m)
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 21600 # Ganimed-RoleTime (360m)
   weight: 20
   startingGear: HoPGear
   icon: "HeadOfPersonnel"

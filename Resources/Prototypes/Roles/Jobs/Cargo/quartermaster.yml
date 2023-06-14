@@ -4,9 +4,12 @@
   description: job-description-qm
   playTimeTracker: JobQuartermaster
   requirements:
+    - !type:RoleTimeRequirement # Ganined-RoleTime (10h)
+      role: JobSalvageSpecialist
+      time: 36000
     - !type:DepartmentTimeRequirement
       department: Cargo
-      time: 54000 # SS220-RoleTime
+      time: 54000 # Ganimed-RoleTime (15h)
   weight: 10
   startingGear: QuartermasterGear
   icon: "QuarterMaster"

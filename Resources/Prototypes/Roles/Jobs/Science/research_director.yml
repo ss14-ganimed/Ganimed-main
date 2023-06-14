@@ -6,7 +6,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Science
-      time: 54000 # SS220-RoleTime
+      time: 60000 # Ganimed-RoleTime (1000m)
   weight: 10
   startingGear: ResearchDirectorGear
   icon: "ResearchDirector"

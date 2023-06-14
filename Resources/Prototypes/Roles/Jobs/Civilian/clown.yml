@@ -3,6 +3,9 @@
   name: job-name-clown
   description: job-description-clown
   playTimeTracker: JobClown
+  requirements:
+    - !type:OverallPlaytimeRequirement
+      time: 1800 # Ganimed-RoleTime (30m)
   startingGear: ClownGear
   icon: "Clown"
   supervisors: job-supervisors-hop

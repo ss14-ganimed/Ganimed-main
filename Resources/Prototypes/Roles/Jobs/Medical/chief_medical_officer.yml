@@ -8,7 +8,13 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 54000 # SS220-RoleTime
+      time: 72000 # Ganimed-RoleTime (20h)
+    - !type:RoleTimeRequirement # Ganined-RoleTime (300m)
+      role: JobMedicalDoctor
+      time: 21600
+    - !type:RoleTimeRequirement # Ganined-RoleTime (1h)
+      role: JobChemist
+      time: 10800
   weight: 10
   startingGear: CMOGear
   icon: "ChiefMedicalOfficer"

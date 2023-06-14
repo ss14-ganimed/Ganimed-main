@@ -5,11 +5,10 @@
   playTimeTracker: JobTechnicalAssistant
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 3600 # SS220-RoleTime
+      time: 7200 # Ganimed-RoleTime(120m)
   startingGear: TechnicalAssistantGear
   icon: "TechnicalAssistant"
   supervisors: job-supervisors-engineering
-  canBeAntag: false
   access:
   - Maintenance
   - Engineering
