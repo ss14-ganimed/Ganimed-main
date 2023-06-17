@@ -158,8 +158,21 @@
   - type: Paper
     content: document-text-chemical-order
 
-# Выписной эпикриз
-# Запрос на производство лекарственных препаратов
+- type: entity
+  id: PaperMedEpicrisis
+  name: med epicrisis
+  parent: PaperOffice
+  components:
+  - type: Paper
+    content: document-text-epicrisis
+
+- type: entity
+  id: PaperHealthExamine
+  name: health examine
+  parent: PaperOffice
+  components:
+  - type: Paper
+    content: document-text-health-examine
 
 - type: entity
   id: PaperDeathCertificate
