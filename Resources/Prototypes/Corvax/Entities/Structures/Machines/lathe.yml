@@ -40,6 +40,8 @@
     - PaperArrestWarrant
     - PaperSearchWarrant
     - PaperChemicalOrder
+    - PaperMedEpicrisis
+    - PaperHealthExaminer
     - PaperDeathCertificate
     - PaperMentalHealthConclusion
     - PaperMedicinalPrescription
