@@ -297,6 +297,13 @@
     color: "#1f8c28"
   - type: Computer
     board: CriminalRecordsComputerCircuitboard
+  - type: GeneralCriminalRecordConsole
+  - type: UserInterface
+    interfaces:
+      - key: enum.GeneralCriminalRecordConsoleKey.Key
+        type: GeneralCriminalRecordConsoleBoundUserInterface
+  - type: ActivatableUI
+    key: enum.GeneralCriminalRecordConsoleKey.Key
 
 - type: entity
   parent: BaseComputer
