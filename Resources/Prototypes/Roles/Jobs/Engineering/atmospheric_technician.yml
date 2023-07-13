@@ -8,7 +8,7 @@
       department: Engineering
       time: 43200 # Ganimed-RoleTime (720m)
     - !type:RoleTimeRequirement # Ganined-RoleTime (1h)
-      role: StationEngineer
+      role: JobStationEngineer
       time: 14400
   startingGear: AtmosphericTechnicianGear
   icon: "AtmosphericTechnician"
