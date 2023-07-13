@@ -11,7 +11,7 @@
       role: JobAtmosphericTechnician
       time: 24000
     - !type:RoleTimeRequirement # Ganined-RoleTime (500m)
-      role: StationEngineer
+      role: JobStationEngineer
       time: 30000
   weight: 10
   startingGear: ChiefEngineerGear
