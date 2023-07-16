@@ -14,14 +14,13 @@
   startingGear: QuartermasterGear
   icon: "QuarterMaster"
   supervisors: job-supervisors-hop
-  canBeAntag: false
+  canBeAntag: true
   access:
   - Cargo
   - Salvage
   - Quartermaster
   - Maintenance
   - External
-  - Command
 
 - type: startingGear
   id: QuartermasterGear
