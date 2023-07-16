@@ -8,66 +8,74 @@
 - type: radioChannel
   id: CentCom
   name: chat-radio-centcom
-  keycode: 'ц' # Corvax-Localization
-  frequency: 1337
+  keycode: 'ц'
+  frequency: 2007
   color: "#2681a5"
   longRange: true
 
 - type: radioChannel
   id: Command
   name: chat-radio-command
-  keycode: 'к' # Corvax-Localization
+  keycode: 'к'
   frequency: 1353
   color: "#fcdf03"
 
 - type: radioChannel
   id: Engineering
   name: chat-radio-engineering
-  keycode: 'и' # Corvax-Localization
+  keycode: 'и'
   frequency: 1357
   color: "#f37746"
 
 - type: radioChannel
   id: Medical
   name: chat-radio-medical
-  keycode: 'м' # Corvax-Localization
+  keycode: 'м'
   frequency: 1355
   color: "#57b8f0"
 
 - type: radioChannel
   id: Science
   name: chat-radio-science
-  keycode: 'н' # Corvax-Localization
+  keycode: 'н'
   frequency: 1351
   color: "#c68cfa"
 
 - type: radioChannel
   id: Security
   name: chat-radio-security
-  keycode: 'о' # Corvax-Localization
+  keycode: 'о'
   frequency: 1359
   color: "#dd3535"
 
 - type: radioChannel
   id: Service
   name: chat-radio-service
-  keycode: 'с' # Corvax-Localization
+  keycode: 'с'
   frequency: 1349
   color: "#6ca729"
 
 - type: radioChannel
   id: Supply
   name: chat-radio-supply
-  keycode: 'п' # Corvax-Localization
+  keycode: 'п'
   frequency: 1347
   color: "#b88646"
 
 - type: radioChannel
   id: Syndicate
   name: chat-radio-syndicate
-  keycode: 'т' # Corvax-Localization
+  keycode: 'т'
   frequency: 1213
   color: "#8f4a4b"
+  longRange: true
+
+- type: radioChannel
+  id: NukeOps
+  name: chat-radio-nukeops
+  keycode: 'я'
+  frequency: 1200
+  color: "#ff0505"
   longRange: true
 
 - type: radioChannel
@@ -76,4 +84,44 @@
   frequency: 1330
   color: "#d39f01"
   # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
+  longRange: true
+
+- type: radioChannel
+  id: EmergancyResponeTeam
+  name: chat-radio-ert
+  keycode: 'л'
+  frequency: 2032
+  color: "#ddadaf"
+  longRange: true
+
+- type: radioChannel
+  id: MobileTaskForces
+  name: chat-radio-mtf
+  keycode: 'а'
+  frequency: 2012
+  color: "#ace5ee"
+  longRange: true
+
+- type: radioChannel
+  id: Fleet
+  name: chat-radio-fleet
+  keycode: 'ф'
+  frequency: 2313
+  color: "#987654"
+  longRange: true
+
+- type: radioChannel
+  id: DeadSquad
+  name: chat-radio-deadsquad
+  keycode: 'ч'
+  frequency: 2771
+  color: "#000000"
+  longRange: true
+
+- type: radioChannel
+  id: SpecialPurposeGroup
+  name: chat-radio-spg
+  keycode: 'г'
+  frequency: 2771
+  color: "#0abab5"
   longRange: true
