@@ -131,7 +131,7 @@
   - type: ContainerFill
     containers:
       key_slots:
-      - EncryptionKeyNukeOps
+      - EncryptionKeySyndie
   - type: Sprite
     sprite: Clothing/Ears/Headsets/syndicate.rsi
   - type: Clothing
