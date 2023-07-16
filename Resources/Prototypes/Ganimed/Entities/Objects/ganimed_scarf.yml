@@ -1,6 +1,6 @@
 - type: entity
   parent: ClothingNeckBase
-  id: ClothingNeckScarfСamouflage
+  id: ClothingNeckScarfСamo
   name: camouflage scarf
   description: A stylish camouflage scarf.
   components:
