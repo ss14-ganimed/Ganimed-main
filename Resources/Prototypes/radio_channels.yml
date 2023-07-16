@@ -94,7 +94,7 @@
   longRange: true
 
 - type: radioChannel
-  id: EmergancyResponeTeam
+  id: EmergencyResponeTeam
   name: chat-radio-ert
   keycode: 'л'
   frequency: 2032
