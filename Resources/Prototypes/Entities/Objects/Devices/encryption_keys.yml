@@ -21,6 +21,7 @@
   - type: EncryptionKey
     channels:
     - Common
+    - SecurityEveryone
     defaultChannel: Common
   - type: Sprite
     layers:
@@ -36,6 +37,7 @@
   - type: EncryptionKey
     channels:
     - Supply
+    - SecurityEveryone
     defaultChannel: Supply
   - type: Sprite
     layers:
@@ -71,6 +73,7 @@
     - Medical
     - Science
     - Security
+    - SecurityEveryone
     - Service
     - Supply
     defaultChannel: Command
@@ -214,3 +217,179 @@
     layers:
     - state: crypt_red
     - state: synd_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyNukeOps
+  name: Nukie-blood encryption key
+  description: An encryption key used by... wait... nuke-blood?
+  components:
+  - type: EncryptionKey
+    channels:
+    - Syndicate
+    - NukeOps
+    defaultChannel: NukeOps
+  - type: Sprite
+    layers:
+    - state: crypt_red
+    - state: synd_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyFullMaster
+  name: master encryption key
+  description: An encryption key used by everyone bosses.
+  components:
+  - type: EncryptionKey
+    channels:
+    - Common
+    - SecurityEveryone
+    - Command
+    - Engineering
+    - Medical
+    - Science
+    - Security
+    - Service
+    - Supply
+    - EmergancyResponeTeam
+    - MobileTaskForces
+    - Fleet
+    - DeadSquad
+    - SpecialPurposeGroup
+    defaultChannel: Command
+  - type: Sprite
+    layers:
+    - state: crypt_gold
+    - state: cap_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyERT
+  name: ERT encryption key
+  description: An encryption key used by Emergancy Respone Team.
+  components:
+  - type: EncryptionKey
+    channels:
+    - EmergancyResponeTeam
+    - CentCom
+    - Common
+    - SecurityEveryone
+    - Command
+    - Engineering
+    - Medical
+    - Science
+    - Security
+    - Service
+    - Supply
+    defaultChannel: EmergancyResponeTeam
+  - type: Sprite
+    layers:
+    - state: crypt_gold
+    - state: com_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyMTF
+  name: MTF encryption key
+  description: An encryption key used by Mobile Task Forces.
+  components:
+  - type: EncryptionKey
+    channels:
+    - MobileTaskForces
+    - CentCom
+    - Common
+    - SecurityEveryone
+    - Command
+    - Engineering
+    - Medical
+    - Science
+    - Security
+    - Service
+    - Supply
+    defaultChannel: MobileTaskForces
+  - type: Sprite
+    layers:
+    - state: crypt_gold
+    - state: com_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyFleet
+  name: Fleet encryption key
+  description: An encryption key used by NanoTrasen Fleet command.
+  components:
+  - type: EncryptionKey
+    channels:
+    - Fleet
+    - DeadSquad
+    - MobileTaskForces
+    - SpecialPurposeGroup
+    - EmergancyResponeTeam
+    - CentCom
+    - Common
+    - SecurityEveryone
+    - Command
+    - Engineering
+    - Medical
+    - Science
+    - Security
+    - Service
+    - Supply
+    defaultChannel: Fleet
+  - type: Sprite
+    layers:
+    - state: crypt_gold
+    - state: com_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyDeadSquad
+  name: Unknown encryption key
+  description: An encryption key used by NanoTrasen *the inscription is erased*.
+  components:
+  - type: EncryptionKey
+    channels:
+    - DeadSquad
+    - MobileTaskForces
+    - SpecialPurposeGroup
+    - EmergancyResponeTeam
+    - CentCom
+    - Common
+    - SecurityEveryone
+    - Command
+    - Engineering
+    - Medical
+    - Science
+    - Security
+    - Service
+    - Supply
+    defaultChannel: DeadSquad
+  - type: Sprite
+    layers:
+    - state: crypt_gold
+    - state: com_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeySPG
+  name: SPG encryption key
+  description: An encryption key used by Special Purpose Group.
+  components:
+  - type: EncryptionKey
+    channels:
+    - SpecialPurposeGroup
+    - CentCom
+    - Common
+    - SecurityEveryone
+    - Command
+    - Engineering
+    - Medical
+    - Science
+    - Security
+    - Service
+    - Supply
+    defaultChannel: SpecialPurposeGroup
+  - type: Sprite
+    layers:
+    - state: crypt_gold
+    - state: com_label

@@ -49,6 +49,13 @@
   color: "#dd3535"
 
 - type: radioChannel
+  id: SecurityEveryone
+  name: chat-radio-guard
+  keycode: 'у'
+  frequency: 1377
+  color: "#dd3535"
+
+- type: radioChannel
   id: Service
   name: chat-radio-service
   keycode: 'с'
@@ -115,7 +122,7 @@
   name: chat-radio-deadsquad
   keycode: 'ч'
   frequency: 2771
-  color: "#000000"
+  color: "#a8E4a0"
   longRange: true
 
 - type: radioChannel
