@@ -53,7 +53,7 @@
   name: chat-radio-guard
   keycode: 'у'
   frequency: 1377
-  color: "#dd3535"
+  color: "#bc4b4b"
 
 - type: radioChannel
   id: Service
@@ -94,7 +94,7 @@
   longRange: true
 
 - type: radioChannel
-  id: EmergencyResponeTeam
+  id: ERTeam
   name: chat-radio-ert
   keycode: 'л'
   frequency: 2032
@@ -114,7 +114,7 @@
   name: chat-radio-fleet
   keycode: 'ф'
   frequency: 2313
-  color: "#987654"
+  color: "#e2b248"
   longRange: true
 
 - type: radioChannel

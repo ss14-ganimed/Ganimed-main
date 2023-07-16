@@ -272,12 +272,13 @@
   parent: ClothingHeadset
   id: ClothingHeadsetERT
   name: ERT headset
-  description: Headset used by Emergancy Respone Team.
+  description: Headset used by Emergency Responce Team.
   components:
   - type: ContainerFill
     containers:
       key_slots:
       - EncryptionKeyERT
+      - EncryptionKeyCommand
   - type: Sprite
     sprite: Clothing/Ears/Headsets/centcom.rsi
   - type: Clothing
@@ -293,6 +294,7 @@
     containers:
       key_slots:
       - EncryptionKeyMTF
+      - EncryptionKeyCommand
   - type: Sprite
     sprite: Clothing/Ears/Headsets/centcom.rsi
   - type: Clothing
@@ -308,6 +310,7 @@
     containers:
       key_slots:
       - EncryptionKeyFleet
+      - EncryptionKeyCommand
   - type: Sprite
     sprite: Clothing/Ears/Headsets/centcom.rsi
   - type: Clothing
@@ -317,27 +320,30 @@
   parent: ClothingHeadset
   id: ClothingHeadsetDeadSquad
   name: Unknown headset
-  description: Headset used by NanoTrasen *the inscription is erased*.
+  description: Headset used by *unintelligible*.
   components:
   - type: ContainerFill
     containers:
       key_slots:
       - EncryptionKeyDeadSquad
+      - EncryptionKeyCentCom
+      - EncryptionKeyCommand
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/centcom.rsi
+    sprite: Ganimed/Clothing/headset_black.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/centcom.rsi
+    sprite: Ganimed/Clothing/headset_black.rsi
 
 - type: entity
   parent: ClothingHeadset
   id: ClothingHeadsetSPG
   name: SPG headset
-  description: Headset used by Speciap Purpose Group.
+  description: Headset used by Special Purpose Group.
   components:
   - type: ContainerFill
     containers:
       key_slots:
       - EncryptionKeySPG
+      - EncryptionKeyCommand
   - type: Sprite
     sprite: Clothing/Ears/Headsets/centcom.rsi
   - type: Clothing
