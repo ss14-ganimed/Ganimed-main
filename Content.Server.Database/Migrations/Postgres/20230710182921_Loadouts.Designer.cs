@@ -5,6 +5,7 @@ using System.Text.Json;
 using Content.Server.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -13,9 +14,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Content.Server.Database.Migrations.Postgres
 {
     [DbContext(typeof(PostgresServerDbContext))]
-    partial class PostgresServerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230710182921_Loadouts")]
+    partial class Loadouts
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -413,50 +416,6 @@ namespace Content.Server.Database.Migrations.Postgres
                         });
                 });
 
-            modelBuilder.Entity("Content.Server.Database.DiscordPlayer", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid")
-                        .HasColumnName("discord_players_id");
-
-                    b.Property<string>("CKey")
-                        .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("ckey");
-
-                    b.Property<string>("DiscordId")
-                        .HasColumnType("text")
-                        .HasColumnName("discord_id");
-
-                    b.Property<string>("DiscordName")
-                        .HasColumnType("text")
-                        .HasColumnName("discord_name");
-
-                    b.Property<string>("HashKey")
-                        .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("hash_key");
-
-                    b.Property<Guid>("SS14Id")
-                        .IsUnicode(true)
-                        .HasColumnType("uuid")
-                        .HasColumnName("ss14_id");
-
-                    b.HasKey("Id")
-                        .HasName("PK_discord_players");
-
-                    b.HasAlternateKey("SS14Id")
-                        .HasName("ak_discord_players_ss14_id");
-
-                    b.HasIndex("Id")
-                        .IsUnique();
-
-                    b.HasIndex("CKey", "DiscordId");
-
-                    b.ToTable("discord_players", (string)null);
-                });
-
             modelBuilder.Entity("Content.Server.Database.Job", b =>
                 {
                     b.Property<int>("Id")
@@ -500,18 +459,24 @@ namespace Content.Server.Database.Migrations.Postgres
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer")
                         .HasColumnName("loadout_id");
+
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
                     b.Property<string>("LoadoutName")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("loadout_name");
+
                     b.Property<int>("ProfileId")
                         .HasColumnType("integer")
                         .HasColumnName("profile_id");
+
                     b.HasKey("Id")
                         .HasName("PK_loadout");
+
                     b.HasIndex("ProfileId", "LoadoutName")
                         .IsUnique();
+
                     b.ToTable("loadout", (string)null);
                 });
 
@@ -1243,17 +1208,6 @@ namespace Content.Server.Database.Migrations.Postgres
                     b.Navigation("Profile");
                 });
 
-			modelBuilder.Entity("Content.Server.Database.Loadout", b =>
-                {
-                    b.HasOne("Content.Server.Database.Profile", "Profile")
-                        .WithMany("Loadouts")
-                        .HasForeignKey("ProfileId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
-                        .HasConstraintName("FK_loadout_profile_profile_id");
-                    b.Navigation("Profile");
-                });
-
             modelBuilder.Entity("Content.Server.Database.Job", b =>
                 {
                     b.HasOne("Content.Server.Database.Profile", "Profile")
@@ -1262,6 +1216,18 @@ namespace Content.Server.Database.Migrations.Postgres
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired()
                         .HasConstraintName("FK_job_profile_profile_id");
+
+                    b.Navigation("Profile");
+                });
+
+            modelBuilder.Entity("Content.Server.Database.Loadout", b =>
+                {
+                    b.HasOne("Content.Server.Database.Profile", "Profile")
+                        .WithMany("Loadouts")
+                        .HasForeignKey("ProfileId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("FK_loadout_profile_profile_id");
 
                     b.Navigation("Profile");
                 });
@@ -1411,8 +1377,8 @@ namespace Content.Server.Database.Migrations.Postgres
                     b.Navigation("Antags");
 
                     b.Navigation("Jobs");
-					
-					b.Navigation("Loadouts");
+
+                    b.Navigation("Loadouts");
 
                     b.Navigation("Traits");
                 });
