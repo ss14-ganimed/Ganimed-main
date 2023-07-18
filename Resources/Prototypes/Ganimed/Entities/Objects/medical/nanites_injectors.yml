@@ -1,0 +1,50 @@
+- type: entity
+  name: nanites injector
+  suffix: Medicine
+  parent: ChemicalMedipen
+  id: StandartNanitesInjector
+  description: The medical nanite injector developed by RI-2 Ganimed has an ultra-high restoring ability
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      pen:
+        maxVol: 20
+        reagents:
+        - ReagentId: StandartNanites
+          Quantity: 20
+  - type: Tag
+    tags: []
+
+- type: entity
+  name: nanites injector
+  suffix: Combat/Special ERT/SPG
+  parent: ChemicalMedipen
+  id: SpecialNanitesInjector
+  description: The injector of combat nanites, perfected from the medical ones at the special operations headquarters, have an ultra-high incredible restorative ability and stimulant properties
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      pen:
+        maxVol: 35
+        reagents:
+        - ReagentId: SpecialNanites
+          Quantity: 35
+  - type: Tag
+    tags: []
+
+- type: entity
+  name: nanites injector
+  suffix: Adminbuse. Nanomachines, son
+  parent: ChemicalMedipen
+  id: ExperimentalNanitesInjector
+  description: The injector of experimental nanites, perfected specifically for the fleet, has a fucking great regenerating ability and stimulating properties... it's time to tell... Nanomachines, son!
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      pen:
+        maxVol: 50
+        reagents:
+        - ReagentId: ExperimentalNanites
+          Quantity: 50
+  - type: Tag
+    tags: []

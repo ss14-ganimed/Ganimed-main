@@ -1,0 +1,93 @@
+- type: reagent
+  id: StandartNanites
+  name: reagent-name-standart-nanites
+  group: Nanites
+  desc: reagent-desc-standart-nanites
+  physicalDesc: reagent-physical-desc-cloudy
+  flavor: medicine
+  color: "#E0FFFF"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Poison: -6
+          groups:
+            Burn: -6
+            Toxin: -6
+            Airloss: -6
+            Brute: -6
+      - !type:ModifyBleedAmount
+        amount: -6
+      - !type:HealthChange
+        damage:
+          types:
+            Bloodloss: -6
+      - !type:ModifyBloodLevel
+        amount: 6
+
+- type: reagent
+  id: SpecialNanites
+  name: reagent-name-standart-nanites
+  group: Nanites
+  desc: reagent-desc-standart-nanites
+  physicalDesc: reagent-physical-desc-cloudy
+  flavor: medicine
+  color: "#E0FFFF"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Cellular: -6
+            Poison: -15
+            Radiation: -6
+          groups:
+            Burn: -15
+            Airloss: -15
+            Brute: -15
+      - !type:ModifyBleedAmount
+        amount: -15
+      - !type:HealthChange
+        damage:
+          types:
+            Bloodloss: -15
+      - !type:ModifyBloodLevel
+        amount: 15
+      - !type:MovespeedModifier
+        walkSpeedModifier: 1.5
+        sprintSpeedModifier: 1.3
+
+- type: reagent
+  id: ExperimentalNanites
+  name: reagent-name-standart-nanites
+  group: Nanites
+  desc: reagent-desc-standart-nanites
+  physicalDesc: reagent-physical-desc-cloudy
+  flavor: medicine
+  color: "#E0FFFF"
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Cellular: -25
+          groups:
+            Toxin: -40
+            Burn: -40
+            Airloss: -40
+            Brute: -40
+      - !type:ModifyBleedAmount
+        amount: -40
+      - !type:HealthChange
+        damage:
+          types:
+            Bloodloss: -40
+      - !type:ModifyBloodLevel
+        amount: 40
+      - !type:MovespeedModifier
+        walkSpeedModifier: 1.8
+        sprintSpeedModifier: 1.5
