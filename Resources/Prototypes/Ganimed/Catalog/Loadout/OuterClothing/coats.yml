@@ -1,0 +1,262 @@
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatGentle
+  category: loadout-category-outerClothing
+  cost: 3
+  exclusive: true
+  prototype: ClothingOuterCoatGentle
+
+- type: loadout
+  id: LoadoutOuterClothingOuterVestArmorMedSec
+  category: loadout-category-outerClothing
+  cost: 6
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+  prototype: ClothingOuterVestArmorMedSec
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatWarden
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Warden
+    - Captain
+  prototype: ClothingOuterCoatWarden
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatHoSGreatcoat
+  category: loadout-category-outerClothing
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - Detective
+    - Warden
+    - HeadOfSecurity
+    - Captain
+    - BlueShield
+  prototype: ClothingOuterCoatHoSGreatcoat
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatHoSOvercoat
+  category: loadout-category-outerClothing
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - Detective
+    - Warden
+    - HeadOfSecurity
+    - Captain
+    - BlueShield
+    - IAA
+  prototype: ClothingOuterCoatHoSOvercoat
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatUSSPOvercoatBlack
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - Detective
+    - Warden
+    - HeadOfSecurity
+    - Captain
+    - BlueShield
+    - IAA
+  prototype: ClothingOuterCoatUSSPOvercoatBlack
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatParamedicWB
+  category: loadout-category-outerClothing
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingOuterCoatParamedicWB
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatHOP
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - HeadOfPersonnel
+  prototype: ClothingOuterCoatHOP
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatWardenAlt
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Warden
+    - HeadOfSecurity
+  prototype: ClothingOuterCoatWardenAlt
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatLab
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  prototype: ClothingOuterCoatLab
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatLabSecurityMedic
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingOuterCoatLabSecurityMedic
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatLabViro
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingOuterCoatLabViro
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatLabGene
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+    - ChiefMedicalOfficer
+    - Scientist
+    - ResearchAssistant
+    - ResearchDirector
+    - Psychologist
+  prototype: ClothingOuterCoatLabGene
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatLabCmo
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+  prototype: ClothingOuterCoatLabCmo
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatLabRobo
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Scientist
+    - ResearchAssistant
+    - ResearchDirector
+  prototype: ClothingOuterCoatRobo
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatLabRnd
+  category: loadout-category-outerClothing
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Scientist
+    - ResearchAssistant
+    - ResearchDirector
+  prototype: ClothingOuterCoatRnd
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatLabChem
+  category: loadout-category-outerClothing
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Chemist
+    - ChiefMedicalOfficer
+  prototype: ClothingOuterCoatLabChem
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatAMG
+  category: loadout-category-outerClothing
+  cost: 5
+  exclusive: true
+  whitelistJobs:
+    - Chemist
+    - ChiefMedicalOfficer
+    - Psychologist
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+  prototype: ClothingOuterCoatAMG
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatDetectiveDark
+  category: loadout-category-outerClothing
+  cost: 5
+  exclusive: true
+  prototype: ClothingOuterCoatDetectiveDark
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatInspector
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  prototype: ClothingOuterCoatInspector
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatHoSTrench
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingOuterCoatHoSTrench
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatDetective
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Detective
+    - BlueShield
+    - Warden
+    - HeadOfSecurity
+  prototype: ClothingOuterCoatDetective
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatSecurityOvercoat
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - BlueShield
+    - SecurityCadet
+    - SecurityOfficer
+    - Warden
+    - Detective
+    - HeadOfSecurity
+    - Captain
+  prototype: ClothingOuterCoatSecurityOvercoat
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatCaptain
+  category: loadout-category-outerClothing
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - Captain
+  prototype: ClothingOuterCoatCaptain

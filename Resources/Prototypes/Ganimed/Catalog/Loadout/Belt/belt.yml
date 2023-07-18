@@ -1,0 +1,111 @@
+- type: loadout
+  id: LoadoutBeltClothingBeltSalvageWebbing
+  category: loadout-category-belt
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - SalvageSpecialist
+    - CargoTechnician
+    - Quartermaster
+  prototype: ClothingBeltSalvageWebbing
+
+- type: loadout
+  id: LoadoutBeltClothingBeltStorageWaistbag
+  category: loadout-category-belt
+  cost: 3
+  exclusive: true
+  prototype: ClothingBeltStorageWaistbag
+
+- type: loadout
+  id: LoadoutBeltClothingBeltSuspenders
+  category: loadout-category-belt
+  cost: 1
+  exclusive: true
+  prototype: ClothingBeltSuspenders
+
+- type: loadout
+  id: LoadoutBeltClothingBeltPlantFilled
+  category: loadout-category-belt
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - Botanist
+    - ServiceWorker
+  prototype: ClothingBeltPlantFilled
+
+- type: loadout
+  id: LoadoutBeltClothingBeltUtilityFilled
+  category: loadout-category-belt
+  cost: 5
+  exclusive: true
+  whitelistJobs:
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingBeltUtilityFilled
+
+- type: loadout
+  id: LoadoutBeltMedicalFilled
+  category: loadout-category-belt
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - MedicalDoctor
+    - Chemist
+    - Paramedic
+    - ChiefMedicalOfficer
+    - Psychologist
+  prototype: ClothingBeltMedicalFilled
+
+- type: loadout
+  id: LoadoutBeltParamedicFilled
+  category: loadout-category-belt
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - MedicalDoctor
+    - Chemist
+    - Paramedic
+    - ChiefMedicalOfficer
+    - Psychologist
+  prototype: ClothingBeltParamedicFilled
+
+- type: loadout
+  id: LoadoutBeltClothingBeltChiefEngineerFilled
+  category: loadout-category-belt
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ChiefEngineer
+  prototype: ClothingBeltChiefEngineerFilled
+
+- type: loadout
+  id: LoadoutBeltClothingBeltJanitorFilled
+  category: loadout-category-belt
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Janitor
+  prototype: ClothingBeltJanitorFilled
+
+- type: loadout
+  id: LoadoutBeltClothingBeltChampion
+  category: loadout-category-belt
+  cost: 5
+  exclusive: true
+  prototype: ClothingBeltChampion
+
+- type: loadout
+  id: LoadoutBeltClothingBeltSheathFilled
+  category: loadout-category-belt
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - Captain
+  prototype: ClothingBeltSheathFilled

@@ -1,0 +1,89 @@
+- type: loadout
+  id: LoadoutEarsClothingHeadsetCMO
+  category: loadout-category-ears
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+  prototype: ClothingHeadsetCMO
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetQM
+  category: loadout-category-ears
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Quartermaster
+  prototype: ClothingHeadsetQM
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetRD
+  category: loadout-category-ears
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ResearchDirector
+  prototype: ClothingHeadsetRD
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetCE
+  category: loadout-category-ears
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ChiefEngineer
+  prototype: ClothingHeadsetCE
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetAltMedical
+  category: loadout-category-ears
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+  prototype: ClothingHeadsetAltMedical
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetAltSecurity
+  category: loadout-category-ears
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingHeadsetAltSecurity
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetAltCargo
+  category: loadout-category-ears
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Quartermaster
+  prototype: ClothingHeadsetAltCargo
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetAltScience
+  category: loadout-category-ears
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ResearchDirector
+  prototype: ClothingHeadsetAltScience
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetAltEngineering
+  category: loadout-category-ears
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ChiefEngineer
+  prototype: ClothingHeadsetAltEngineering
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetAltCommand
+  category: loadout-category-ears
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+  prototype: ClothingHeadsetAltCommand

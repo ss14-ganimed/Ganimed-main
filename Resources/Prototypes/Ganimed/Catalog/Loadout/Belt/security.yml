@@ -1,0 +1,99 @@
+- type: loadout
+  id: LoadoutBeltClothingBeltMercWebbing
+  category: loadout-category-belt
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - Warden
+    - HeadOfSecurity
+    - BlueShield
+    - Detective
+  prototype: ClothingBeltMercWebbing
+
+- type: loadout
+  id: LoadoutBeltClothingBeltSecurityWebbing
+  category: loadout-category-belt
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - SecurityCadet
+    - Warden
+    - HeadOfSecurity
+    - BlueShield
+    - Detective
+  prototype: ClothingBeltSecurityWebbing
+
+- type: loadout
+  id: LoadoutBeltClothingBeltBandolier
+  category: loadout-category-belt
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - SecurityCadet
+    - Warden
+    - HeadOfSecurity
+    - BlueShield
+    - Detective
+  prototype: ClothingBeltBandolier
+
+- type: loadout
+  id: LoadoutBeltClothingBeltHoS
+  category: loadout-category-belt
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - SecurityCadet
+    - Warden
+    - HeadOfSecurity
+    - BlueShield
+    - Detective
+  prototype: ClothingBeltHoS
+
+- type: loadout
+  id: LoadoutBeltClothingBeltHolster
+  category: loadout-category-belt
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - SecurityCadet
+    - Warden
+    - HeadOfSecurity
+    - BlueShield
+    - Detective
+    - Captain
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingBeltHolster
+
+- type: loadout
+  id: LoadoutBeltClothingBeltSecurityFilled
+  category: loadout-category-belt
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - SecurityCadet
+    - Warden
+    - HeadOfSecurity
+    - BlueShield
+    - Detective
+  prototype: ClothingBeltSecurityFilled
+
+- type: loadout
+  id: LoadoutBeltClothingBeltAssault
+  category: loadout-category-belt
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - SecurityCadet
+    - Warden
+    - HeadOfSecurity
+    - BlueShield
+    - Detective
+  prototype: ClothingBeltAssault

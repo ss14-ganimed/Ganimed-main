@@ -1,0 +1,122 @@
+- type: loadout
+  id: LoadoutNeckClothingNeckCloakTrans
+  category: loadout-category-neck
+  cost: 2
+  exclusive: true
+  prototype: ClothingNeckCloakTrans
+
+- type: loadout
+  id: LoadoutNeckClothingNeckCloakNanotrasen
+  category: loadout-category-neck
+  cost: 4
+  exclusive: true
+  prototype: ClothingNeckCloakNanotrasen
+
+- type: loadout
+  id: LoadoutNeckClothingNeckCloakAdmin
+  category: loadout-category-neck
+  cost: 5
+  exclusive: true
+  prototype: ClothingNeckCloakAdmin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckCloakHerald
+  category: loadout-category-neck
+  cost: 4
+  exclusive: true
+  prototype: ClothingNeckCloakHerald
+
+- type: loadout
+  id: LoadoutNeckClothingNeckCloakHop
+  category: loadout-category-neck
+  cost: 1
+  whitelistJobs:
+    - HeadOfPersonnel
+  exclusive: true
+  prototype: ClothingNeckCloakHop
+
+- type: loadout
+  id: LoadoutNeckClothingNeckCloakHos
+  category: loadout-category-neck
+  cost: 1
+  whitelistJobs:
+    - HeadOfSecurity
+  exclusive: true
+  prototype: ClothingNeckCloakHos
+
+- type: loadout
+  id: LoadoutNeckClothingNeckCloakGoliathCloak
+  category: loadout-category-neck
+  cost: 3
+  exclusive: true
+  prototype: ClothingNeckCloakGoliathCloak
+
+- type: loadout
+  id: LoadoutNeckClothingNeckCloakCap
+  category: loadout-category-neck
+  cost: 1
+  whitelistJobs:
+    - Captain
+  exclusive: true
+  prototype: ClothingNeckCloakCap
+
+- type: loadout
+  id: LoadoutNeckClothingNeckCloakPirateCap
+  category: loadout-category-neck
+  cost: 6
+  exclusive: true
+  prototype: ClothingNeckCloakPirateCap
+
+- type: loadout
+  id: LoadoutNeckClothingNeckCloakQm
+  category: loadout-category-neck
+  cost: 1
+  whitelistJobs:
+    - Quartermaster
+  exclusive: true
+  prototype: ClothingNeckCloakQm
+
+- type: loadout
+  id: LoadoutNeckClothingNeckCloakMoth
+  category: loadout-category-neck
+  cost: 3
+  exclusive: true
+  prototype: ClothingNeckCloakMoth
+
+- type: loadout
+  id: LoadoutNeckClothingNeckCloakRd
+  category: loadout-category-neck
+  cost: 1
+  whitelistJobs:
+    - ResearchDirector
+  exclusive: true
+  prototype: ClothingNeckCloakRd
+
+- type: loadout
+  id: LoadoutNeckClothingNeckCloakCe
+  category: loadout-category-neck
+  cost: 1
+  whitelistJobs:
+    - ChiefEngineer
+  exclusive: true
+  prototype: ClothingNeckCloakCe
+
+- type: loadout
+  id: LoadoutNeckClothingNeckCloakMiner
+  category: loadout-category-neck
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingNeckCloakMiner
+
+- type: loadout
+  id: LoadoutNeckClothingNeckCloakCapFormal
+  category: loadout-category-neck
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Captain
+  prototype: ClothingNeckCloakCapFormal

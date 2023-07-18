@@ -1,0 +1,217 @@
+- type: loadout
+  id: LoadoutUniformUniformScrubsColorBlue
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: UniformScrubsColorBlue
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitPsychologist
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Psychologist
+    - ChiefMedicalOfficer
+  prototype: ClothingUniformJumpsuitPsychologist
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtPsychologist
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Psychologist
+    - ChiefMedicalOfficer
+  prototype: ClothingUniformJumpskirtPsychologist
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitChemistry
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Chemist
+    - ChiefMedicalOfficer
+  prototype: ClothingUniformJumpsuitChemistry
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtChemistry
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+    - Chemist
+  prototype: ClothingUniformJumpskirtChemistry
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitParamedic
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingUniformJumpsuitParamedic
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtParamedic
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingUniformJumpskirtParamedic
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtBrigmedic
+  category: loadout-category-uniform
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingUniformJumpskirtBrigmedic
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitBrigmedic
+  category: loadout-category-uniform
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingUniformJumpsuitBrigmedic
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtVirology
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingUniformJumpskirtVirology
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitVirology
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingUniformJumpsuitVirology
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtMedicalDoctor
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+    - ChiefMedicalOfficer
+    - Chemist
+  prototype: ClothingUniformJumpskirtMedicalDoctor
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitMedicalDoctor
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+    - ChiefMedicalOfficer
+    - Chemist
+  prototype: ClothingUniformJumpsuitMedicalDoctor
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtGenetics
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+    - ChiefMedicalOfficer
+    - Scientist
+    - ResearchDirector
+    - ResearchAssistant
+  prototype: ClothingUniformJumpskirtGenetics
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitGenetics
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+    - ChiefMedicalOfficer
+    - Scientist
+    - ResearchDirector
+    - ResearchAssistant
+  prototype: ClothingUniformJumpsuitGenetics
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtCMO
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+  prototype: ClothingUniformJumpskirtCMO
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitCMO
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+  prototype: ClothingUniformJumpsuitCMO
+
+- type: loadout
+  id: LoadoutUniformUniformScrubsColorGreen
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - MedicalDoctor
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: UniformScrubsColorGreen
+
+- type: loadout
+  id: LoadoutUniformUniformScrubsColorPurple
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - MedicalDoctor
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: UniformScrubsColorPurple

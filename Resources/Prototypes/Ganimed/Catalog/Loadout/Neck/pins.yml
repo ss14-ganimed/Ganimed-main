@@ -1,0 +1,125 @@
+- type: loadout
+  id: LoadoutNeckClothingNeckDeForestPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckDeForestPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckDonkPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckDonkPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckNakamuraPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckNakamuraPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckNanoTrasenPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckNanoTrasenPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckVitezstviPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckVitezstviPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckLogistikaPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckLogistikaPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckEarthPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckEarthPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckUSSPPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckUSSPPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckSyndicakePin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckSyndicakePin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckPansexualPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckPansexualPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckLesbianPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckLesbianPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckIntersexPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckIntersexPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckAsexualPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckAsexualPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckTransPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckTransPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckLGBTPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckLGBTPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckAromanticPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckAromanticPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckBisexualPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckBisexualPin
+
+- type: loadout
+  id: LoadoutNeckClothingNeckNonBinaryPin
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckNonBinaryPin

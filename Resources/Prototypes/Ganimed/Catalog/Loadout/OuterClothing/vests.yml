@@ -1,0 +1,134 @@
+- type: loadout
+  id: LoadoutOuterClothingOuterVestArmorSec
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Warden
+    - SecurityOfficer
+    - SecurityCadet
+    - Detective
+    - Captain
+    - HeadOfSecurity
+    - BlueShield
+  prototype: ClothingOuterVestArmorSec
+
+- type: loadout
+  id: LoadoutOuterClothingOuterVest
+  category: loadout-category-outerClothing
+  cost: 1
+  exclusive: true
+  prototype: ClothingOuterVest
+
+- type: loadout
+  id: LoadoutOuterClothingOuterVestSecurityMedic
+  category: loadout-category-outerClothing
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+  prototype: ClothingOuterVestSecurityMedic
+
+- type: loadout
+  id: LoadoutOuterClothingOuterVestDetective
+  category: loadout-category-outerClothing
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+    - Detective
+  prototype: ClothingOuterVestDetective
+
+- type: loadout
+  id: LoadoutOuterClothingOuterVestKevlar
+  category: loadout-category-outerClothing
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - Quartermaster
+    - BlueShield
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - ChiefEngineer
+    - ChiefMedicalOfficer
+    - SecurityCadet
+    - SecurityOfficer
+    - Warden
+    - Detective
+    - Captain
+    - ResearchDirector
+    - IAA
+    - Bartender
+    - SalvageSpecialist
+    - Reporter
+    - Boxer
+  prototype: ClothingOuterVestKevlar
+
+- type: loadout
+  id: LoadoutOuterClothingOuterVestHazard
+  category: loadout-category-outerClothing
+  cost: 1
+  exclusive: true
+  prototype: ClothingOuterVestHazard
+
+- type: loadout
+  id: LoadoutOuterClothingOuterVestWeb
+  category: loadout-category-outerClothing
+  cost: 5
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - Warden
+    - Detective
+    - BlueShield
+    - HeadOfSecurity
+  prototype: ClothingOuterVestWeb
+
+- type: loadout
+  id: LoadoutOuterClothingOuterVestWebMerc
+  category: loadout-category-outerClothing
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - Warden
+    - Detective
+    - BlueShield
+    - HeadOfSecurity
+  prototype: ClothingOuterVestWebMerc
+
+- type: loadout
+  id: LoadoutOuterClothingOuterArmorBulletproof
+  category: loadout-category-outerClothing
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - Quartermaster
+    - BlueShield
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - ChiefEngineer
+    - ChiefMedicalOfficer
+    - SecurityCadet
+    - SecurityOfficer
+    - Warden
+    - Detective
+    - Captain
+    - ResearchDirector
+    - IAA
+    - Bartender
+    - SalvageSpecialist
+    - Reporter
+    - Boxer
+  prototype: ClothingOuterArmorBulletproof
+
+- type: loadout
+  id: LoadoutOuterClothingOuterArmorCaptainCarapace
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  prototype: ClothingOuterArmorCaptainCarapace

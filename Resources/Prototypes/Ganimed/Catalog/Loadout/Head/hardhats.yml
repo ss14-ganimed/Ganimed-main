@@ -1,0 +1,89 @@
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHardhatYellow
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ResearchAssistant
+    - ResearchDirector
+    - Scientist
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingHeadHatHardhatYellow
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHardhatRed
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ResearchAssistant
+    - ResearchDirector
+    - Scientist
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingHeadHatHardhatRed
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHardhatOrange
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ResearchAssistant
+    - ResearchDirector
+    - Scientist
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingHeadHatHardhatOrange
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHardhatBlue
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ResearchAssistant
+    - ResearchDirector
+    - Scientist
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingHeadHatHardhatBlue
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHardhatWhite
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ResearchAssistant
+    - ResearchDirector
+    - Scientist
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingHeadHatHardhatWhite

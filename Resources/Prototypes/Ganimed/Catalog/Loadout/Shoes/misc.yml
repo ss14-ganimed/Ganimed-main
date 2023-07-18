@@ -1,0 +1,83 @@
+- type: loadout
+  id: LoadoutShoesClothingShoesAerostatic
+  category: loadout-category-shoes
+  cost: 1
+  exclusive: true
+  prototype: ClothingShoesAerostatic
+
+- type: loadout
+  id: LoadoutShoesClothingShoesBootsPerformer
+  category: loadout-category-shoes
+  cost: 1
+  exclusive: true
+  prototype: ClothingShoesBootsPerformer
+
+- type: loadout
+  id: LoadoutShoesClothingShoesCult
+  category: loadout-category-shoes
+  cost: 2
+  exclusive: true
+  prototype: ClothingShoesCult
+
+- type: loadout
+  id: LoadoutShoesClothingShoesGreenLizardskin
+  category: loadout-category-shoes
+  cost: 3
+  exclusive: true
+  prototype: ClothingShoesGreenLizardskin
+
+- type: loadout
+  id: LoadoutShoesClothingShoesLeather
+  category: loadout-category-shoes
+  cost: 2
+  exclusive: true
+  prototype: ClothingShoesLeather
+
+- type: loadout
+  id: LoadoutShoesClothingShoesFlippers
+  category: loadout-category-shoes
+  cost: 1
+  exclusive: true
+  prototype: ClothingShoesFlippers
+
+- type: loadout
+  id: LoadoutShoesClothingShoesWizard
+  category: loadout-category-shoes
+  cost: 1
+  exclusive: true
+  prototype: ClothingShoesWizard
+
+- type: loadout
+  id: LoadoutShoesClothingShoeSlippersDuck
+  category: loadout-category-shoes
+  cost: 1
+  exclusive: true
+  prototype: ClothingShoeSlippersDuck
+
+- type: loadout
+  id: LoadoutShoesClothingShoesSlippers
+  category: loadout-category-shoes
+  cost: 1
+  exclusive: true
+  prototype: ClothingShoesSlippers
+
+- type: loadout
+  id: LoadoutShoesClothingShoesTourist
+  category: loadout-category-shoes
+  cost: 2
+  exclusive: true
+  prototype: ClothingShoesTourist
+
+- type: loadout
+  id: LoadoutShoesClothingShoesDameDane
+  category: loadout-category-shoes
+  cost: 1
+  exclusive: true
+  prototype: ClothingShoesDameDane
+
+- type: loadout
+  id: LoadoutShoesClothingShoesBootsLaceup
+  category: loadout-category-shoes
+  cost: 2
+  exclusive: true
+  prototype: ClothingShoesBootsLaceup

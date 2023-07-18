@@ -1,0 +1,185 @@
+- type: loadout
+  id: LoadoutBackpackClothingBackpackCluwne
+  category: loadout-category-backpack
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingBackpackCluwne
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackWaterTank
+  category: loadout-category-backpack
+  cost: 3
+  exclusive: true
+  prototype: ClothingBackpackWaterTank
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpack
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  prototype: ClothingBackpack
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackIan
+  category: loadout-category-backpack
+  cost: 2
+  exclusive: true
+  prototype: ClothingBackpackIan
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackHydroponics
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  prototype: ClothingBackpackHydroponics
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackBrigmedic
+  category: loadout-category-backpack
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - MedicalDoctor
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingBackpackBrigmedic
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackVirology
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - MedicalDoctor
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingBackpackVirology
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackGenetics
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - Chemist
+    - Scientist
+    - ResearchDirector
+    - ResearchAssistant
+    - MedicalDoctor
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingBackpackGenetics
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackEngineering
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - StationEngineer
+    - TechnicalAssistant
+    - AtmosphericTechnician
+    - ChiefEngineer
+  prototype: ClothingBackpackEngineering
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackMedical
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - Chemist
+    - MedicalDoctor
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingBackpackMedical
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackMime
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Mime
+  prototype: ClothingBackpackMime
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackMerc
+  category: loadout-category-backpack
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - Warden
+    - Detective
+    - HeadOfSecurity
+  prototype: ClothingBackpackMerc
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackSecurity
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - Warden
+    - Detective
+    - HeadOfSecurity
+    - SecurityCadet
+  prototype: ClothingBackpackSecurity
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackCE
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ChiefEngineer
+  prototype: ClothingBackpackCE
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackSalvage
+  category: loadout-category-backpack
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingBackpackSalvage
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackScience
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Scientist
+    - ResearchAssistant
+    - ResearchDirector
+  prototype: ClothingBackpackScience
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackChemistry
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Chemist
+    - ChiefMedicalOfficer
+  prototype: ClothingBackpackChemistry
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackClown
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingBackpackClown

@@ -1,0 +1,224 @@
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitMonasticRobeDark
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Chaplain
+  prototype: ClothingUniformJumpsuitMonasticRobeDark
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitBartender
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ServiceWorker
+    - Bartender
+  prototype: ClothingUniformJumpsuitBartender
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtBartender
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ServiceWorker
+    - Bartender
+  prototype: ClothingUniformJumpskirtBartender
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitChef
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ServiceWorker
+    - Chef
+  prototype: ClothingUniformJumpsuitChef
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtChef
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ServiceWorker
+    - Chef
+  prototype: ClothingUniformJumpskirtChef
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitBartenderPurple
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ServiceWorker
+    - Bartender
+  prototype: ClothingUniformJumpsuitBartenderPurple
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitLibrarian
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpsuitLibrarian
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtLibrarian
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpskirtLibrarian
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitMonasticRobeLight
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Chaplain
+  prototype: ClothingUniformJumpsuitMonasticRobeLight
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitSafari
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpsuitSafari
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitJournalist
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpsuitJournalist
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitMusician
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpsuitMusician
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitClown
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingUniformJumpsuitClown
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitCluwne
+  category: loadout-category-uniform
+  cost: 5
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingUniformJumpsuitCluwne
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitMime
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpsuitMime
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitReporter
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpsuitReporter
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitJester
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingUniformJumpsuitJester
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitJesterAlt
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingUniformJumpsuitJesterAlt
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitJanitor
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Janitor
+  prototype: ClothingUniformJumpsuitJanitor
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtJanitor
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Janitor
+  prototype: ClothingUniformJumpskirtJanitor
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitChaplain
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Chaplain
+  prototype: ClothingUniformJumpsuitChaplain
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtChaplain
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Chaplain
+  prototype: ClothingUniformJumpskirtChaplain
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtHydroponics
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Botanist
+  prototype: ClothingUniformJumpskirtHydroponics
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitHydroponics
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Botanist
+  prototype: ClothingUniformJumpsuitHydroponics
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtHoP
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - HeadOfPersonnel
+  prototype: ClothingUniformJumpskirtHoP
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitHoP
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - HeadOfPersonnel
+  prototype: ClothingUniformJumpsuitHoP

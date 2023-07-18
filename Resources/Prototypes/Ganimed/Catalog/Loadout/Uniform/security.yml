@@ -1,0 +1,404 @@
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitBlueShield
+  category: loadout-category-uniform
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - BlueShield
+    - SecurityOfficer
+    - SecurityCadet
+    - Warden
+    - Detective
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpsuitBlueShield
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtHoSAlt
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpskirtHoSAlt
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitHoSAlt
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpsuitHoSAlt
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitSecBlue
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpsuitSecBlue
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtHoS
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpskirtHoS
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitHoS
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpsuitHoS
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitMercenary
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - Warden
+    - Detective
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpsuitMercenary
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitSec
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - Warden
+    - Detective
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpsuitSec
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtSec
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - Warden
+    - Detective
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpskirtSec
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitLawyerRed
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - IAA
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - Detective
+    - Warden
+  prototype: ClothingUniformJumpsuitLawyerRed
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtLawyerRed
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - IAA
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - Detective
+    - Warden
+  prototype: ClothingUniformJumpskirtLawyerRed
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitDetectiveGrey
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - IAA
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - Detective
+    - SecurityOfficer
+    - Warden
+  prototype: ClothingUniformJumpsuitDetectiveGrey
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtDetectiveGrey
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - IAA
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - Detective
+    - SecurityOfficer
+    - Warden
+  prototype: ClothingUniformJumpskirtDetectiveGrey
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitHoSParadeMale
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpsuitHoSParadeMale
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtHoSParadeMale
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpskirtHoSParadeMale
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitDetective
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - IAA
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - Detective
+    - SecurityOfficer
+    - Warden
+  prototype: ClothingUniformJumpsuitDetective
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtDetective
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - IAA
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - Detective
+    - SecurityOfficer
+    - Warden
+  prototype: ClothingUniformJumpskirtDetective
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitHoSGrey
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpsuitHoSGrey
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitLawyerBlue
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - IAA
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - Detective
+    - Warden
+  prototype: ClothingUniformJumpsuitLawyerBlue
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtLawyerBlue
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - IAA
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - Detective
+    - Warden
+  prototype: ClothingUniformJumpskirtLawyerBlue
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitHoSBlue
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpsuitHoSBlue
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitHoSOld
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpsuitHoSOld
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitUSSPBlack
+  category: loadout-category-uniform
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - Warden
+    - HeadOfSecurity
+    - Detective
+    - BlueShield
+    - Captain
+    - IAA
+  prototype: ClothingUniformJumpsuitUSSPBlack
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitHosFormal
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpsuitHosFormal
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtHosFormal
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpskirtHosFormal
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitWarden
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Warden
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpsuitWarden
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtWarden
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Warden
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpskirtWarden
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitLawyerPurple
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - IAA
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - Detective
+    - Warden
+  prototype: ClothingUniformJumpsuitLawyerPurple
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtLawyerPurple
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - IAA
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - Detective
+    - Warden
+  prototype: ClothingUniformJumpskirtLawyerPurple
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitSuperstarCop
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - Warden
+    - Detective
+    - HeadOfSecurity
+  prototype: ClothingUniformJumpsuitSuperstarCop
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitLawyerGood
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - IAA
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - Detective
+    - Warden
+  prototype: ClothingUniformJumpsuitLawyerGood
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtLawyerGood
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - IAA
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - Detective
+    - Warden
+  prototype: ClothingUniformJumpskirtLawyerGood
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitLawyerBlack
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - IAA
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - Detective
+    - Warden
+  prototype: ClothingUniformJumpsuitLawyerBlack
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtLawyerBlack
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - IAA
+    - HeadOfPersonnel
+    - HeadOfSecurity
+    - Detective
+    - Warden
+  prototype: ClothingUniformJumpskirtLawyerBlack
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtPrisoner
+  category: loadout-category-uniform
+  cost: 3
+  exclusive: true
+  prototype: ClothingUniformJumpskirtPrisoner
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitPrisoner
+  category: loadout-category-uniform
+  cost: 3
+  exclusive: true
+  prototype: ClothingUniformJumpsuitPrisoner

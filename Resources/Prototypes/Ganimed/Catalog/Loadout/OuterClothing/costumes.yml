@@ -1,0 +1,41 @@
+- type: loadout
+  id: LoadoutOuterClothingOuterSanta
+  category: loadout-category-outerClothing
+  cost: 4
+  exclusive: true
+  prototype: ClothingOuterSanta
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCardborg
+  category: loadout-category-outerClothing
+  cost: 4
+  exclusive: true
+  prototype: ClothingOuterCardborg
+
+- type: loadout
+  id: LoadoutOuterClothingOuterSuitMonkey
+  category: loadout-category-outerClothing
+  cost: 4
+  exclusive: true
+  prototype: ClothingOuterSuitMonkey
+
+- type: loadout
+  id: LoadoutOuterClothingOuterSkub
+  category: loadout-category-outerClothing
+  cost: 5
+  exclusive: true
+  prototype: ClothingOuterSkub
+
+- type: loadout
+  id: LoadoutOuterClothingOuterSuitChicken
+  category: loadout-category-outerClothing
+  cost: 4
+  exclusive: true
+  prototype: ClothingOuterSuitChicken
+
+- type: loadout
+  id: LoadoutOuterClothingOuterPlagueSuit
+  category: loadout-category-outerClothing
+  cost: 3
+  exclusive: true
+  prototype: ClothingOuterPlagueSuit

@@ -1,0 +1,48 @@
+- type: loadout
+  id: LoadoutHeadClothingHeadHatMagician
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatMagician
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatWitch1
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatWitch1
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatWitch
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatWitch
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatWizard
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatWizard
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatRedwizard
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatRedwizard
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatVioletwizard
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatVioletwizard
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatWizardFake
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatWizardFake

@@ -1,0 +1,50 @@
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtCargo
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingUniformJumpskirtCargo
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitCargo
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingUniformJumpsuitCargo
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtQM
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Quartermaster
+  prototype: ClothingUniformJumpskirtQM
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitQM
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Quartermaster
+  prototype: ClothingUniformJumpsuitQM
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitSalvageSpecialist
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingUniformJumpsuitSalvageSpecialist

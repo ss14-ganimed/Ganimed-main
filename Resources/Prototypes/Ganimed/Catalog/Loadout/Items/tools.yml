@@ -1,0 +1,104 @@
+- type: loadout
+  id: LoadoutItemsGeigerCounter
+  category: loadout-category-items
+  cost: 1
+  prototype: GeigerCounter
+
+- type: loadout
+  id: LoadoutItemsAppraisalTool
+  category: loadout-category-items
+  cost: 3
+  prototype: AppraisalTool
+
+- type: loadout
+  id: LoadoutItemsMultitool
+  category: loadout-category-items
+  cost: 1
+  whitelistJobs:
+    - ChiefEngineer
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+  prototype: Multitool
+
+- type: loadout
+  id: LoadoutItemsFlashlightLantern
+  category: loadout-category-items
+  cost: 2
+  prototype: FlashlightLantern
+
+- type: loadout
+  id: LoadoutItemsFlashlightSeclite
+  category: loadout-category-items
+  cost: 3
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - BlueShield
+    - Warden
+    - HeadOfSecurity
+    - Detective
+    - HeadOfPersonnel
+    - Captain
+  prototype: FlashlightSeclite
+
+- type: loadout
+  id: LoadoutItemsMopItem
+  category: loadout-category-items
+  cost: 3
+  prototype: MopItem
+
+- type: loadout
+  id: LoadoutItemsForensicScanner
+  category: loadout-category-items
+  cost: 3
+  whitelistJobs:
+    - Detective
+    - HeadOfSecurity
+    - Captain
+    - Warden
+  prototype: ForensicScanner
+
+- type: loadout
+  id: LoadoutItemsRCDAmmo
+  category: loadout-category-items
+  cost: 3
+  whitelistJobs:
+    - ChiefEngineer
+    - AtmosphericTechnician
+  prototype: RCDAmmo
+
+- type: loadout
+  id: LoadoutItemsGasAnalyzer
+  category: loadout-category-items
+  cost: 2
+  whitelistJobs:
+    - Scientist
+    - ResearchAssistant
+    - ResearchDirector
+    - AtmosphericTechnician
+    - StationEngineer
+    - TechnicalAssistant
+    - ChiefEngineer
+  prototype: GasAnalyzer
+
+- type: loadout
+  id: LoadoutItemsHandheldGPSBasic
+  category: loadout-category-items
+  cost: 2
+  prototype: HandheldGPSBasic
+
+- type: loadout
+  id: LoadoutItemsHolofanProjector
+  category: loadout-category-items
+  cost: 2
+  whitelistJobs:
+    - AtmosphericTechnician
+    - ChiefEngineer
+  prototype: HolofanProjector
+
+- type: loadout
+  id: LoadoutItemsCrowbarRed
+  category: loadout-category-items
+  cost: 2
+  prototype: CrowbarRed

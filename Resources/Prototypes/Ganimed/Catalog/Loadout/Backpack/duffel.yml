@@ -1,0 +1,177 @@
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffel
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  prototype: ClothingBackpackDuffel
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffelHydroponics
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Botanist
+  prototype: ClothingBackpackDuffelHydroponics
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffelBrigmedic
+  category: loadout-category-backpack
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - MedicalDoctor
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingBackpackDuffelBrigmedic
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffelVirology
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - MedicalDoctor
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingBackpackDuffelVirology
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffelGenetics
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - Chemist
+    - Scientist
+    - ResearchDirector
+    - ResearchAssistant
+    - MedicalDoctor
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingBackpackDuffelGenetics
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffelEngineering
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+  prototype: ClothingBackpackDuffelEngineering
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffelCaptain
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Captain
+  prototype: ClothingBackpackDuffelCaptain
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffelClown
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingBackpackDuffelClown
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffelMedical
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - Chemist
+    - MedicalDoctor
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingBackpackDuffelMedical
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffelMime
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Mime
+  prototype: ClothingBackpackDuffelMime
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffelSecurity
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - SecurityCadet
+    - Detective
+    - Warden
+    - HeadOfSecurity
+  prototype: ClothingBackpackDuffelSecurity
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffelCE
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ChiefEngineer
+  prototype: ClothingBackpackDuffelCE
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffelSalvage
+  category: loadout-category-backpack
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingBackpackDuffelSalvage
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffelScience
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Scientist
+    - ResearchAssistant
+    - ResearchDirector
+  prototype: ClothingBackpackDuffelScience
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffelChemistry
+  category: loadout-category-backpack
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Chemist
+    - ChiefMedicalOfficer
+  prototype: ClothingBackpackDuffelChemistry
+
+- type: loadout
+  id: LoadoutBackpackClothingBackpackDuffelSurgeryFilled
+  category: loadout-category-backpack
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - Chemist
+    - Scientist
+    - ResearchDirector
+    - ResearchAssistant
+    - MedicalDoctor
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingBackpackDuffelSurgeryFilled

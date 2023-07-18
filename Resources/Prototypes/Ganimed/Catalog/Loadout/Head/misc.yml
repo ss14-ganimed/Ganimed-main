@@ -1,0 +1,272 @@
+- type: loadout
+  id: LoadoutHeadClothingHeadHelmetThunderdome
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHelmetThunderdome
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatCardborg
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatCardborg
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHelmetTemplar
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHelmetTemplar
+
+- type: loadout
+  id: LoadoutHeadClothingHeadSafari
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadSafari
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatPumpkin
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatPumpkin
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatBowlerHat
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatBowlerHat
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatOutlawHat
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatOutlawHat
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatCake
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatCake
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHairflower
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatHairflower
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatFlowerCrown
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatFlowerCrown
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatTophat
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatTophat
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatAnimalCatBlack
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatAnimalCatBlack
+
+- type: loadout
+  id: LoadoutHeadClothingHeadPaperSack
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadPaperSack
+
+- type: loadout
+  id: LoadoutHeadClothingHeadRastaHat
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadRastaHat
+
+- type: loadout
+  id: LoadoutHeadClothingHeadPaperSackSmile
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadPaperSackSmile
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatUshanka
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatUshanka
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatAnimalCat
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatAnimalCat
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatFedoraGrey
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatFedoraGrey
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatSquid
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatSquid
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatAnimalHeadslime
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatAnimalHeadslime
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatAnimalHeadHatSombrero
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatSombrero
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatXmasCrown
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatXmasCrown
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatCone
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatCone
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatBunny
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatBunny
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHoodMoth
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatHoodMoth
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatAnimalMonkey
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatAnimalMonkey
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatPwig
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatPwig
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatShrineMaidenWig
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatShrineMaidenWig
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatSantahat
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatSantahat
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatAnimalCatBrown
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatAnimalCatBrown
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatFedoraBrown
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatFedoraBrown
+
+- type: loadout
+  id: LoadoutHeadClothingHeadFishCap
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadFishCap
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatTrucker
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatTrucker
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHetmanHat
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatHetmanHat
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatRichard
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatRichard
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatWatermelon
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatWatermelon
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatBeaverHat
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatBeaverHat
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatPaper
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatPaper
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatFez
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatFez

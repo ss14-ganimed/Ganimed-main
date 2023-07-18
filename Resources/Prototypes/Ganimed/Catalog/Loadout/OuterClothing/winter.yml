@@ -1,0 +1,301 @@
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterWarden
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+    - Warden
+  prototype: ClothingOuterWinterWarden
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterCoat
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  prototype: ClothingOuterWinterCoat
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterCentcom
+  category: loadout-category-outerClothing
+  cost: 5
+  exclusive: true
+  prototype: ClothingOuterWinterCentcom
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterAtmos
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - AtmosphericTechnician
+  prototype: ClothingOuterWinterAtmos
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterBar
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Bartender
+    - ServiceWorker
+  prototype: ClothingOuterWinterBar
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterHydro
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Botanist
+  prototype: ClothingOuterWinterHydro
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterViro
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+  prototype: ClothingOuterWinterViro
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterGen
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+    - Chemist
+    - Psychologist
+    - Scientist
+    - ResearchDirector
+    - ResearchAssistant
+  prototype: ClothingOuterWinterGen
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterCMO
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+  prototype: ClothingOuterWinterCMO
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterHoP
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - HeadOfPersonnel
+  prototype: ClothingOuterWinterHoP
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterHoS
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingOuterWinterHoS
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterCargo
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingOuterWinterCargo
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterEngi
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - AtmosphericTechnician
+    - StationEngineer
+    - ChiefEngineer
+    - TechnicalAssistant
+  prototype: ClothingOuterWinterEngi
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterCap
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Captain
+  prototype: ClothingOuterWinterCap
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterQM
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Quartermaster
+  prototype: ClothingOuterWinterQM
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterClown
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingOuterWinterClown
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterMed
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+    - MedicalDoctor
+    - MedicalIntern
+    - Paramedic
+    - Chemist
+    - Psychologist
+  prototype: ClothingOuterWinterMed
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterMime
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Mime
+  prototype: ClothingOuterWinterMime
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterMusician
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Musician
+  prototype: ClothingOuterWinterMusician
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterRD
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ResearchDirector
+  prototype: ClothingOuterWinterRD
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterPara
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingOuterWinterPara
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterRobo
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Scientist
+    - ResearchDirector
+    - ResearchAssistant
+  prototype: ClothingOuterWinterRobo
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterSec
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - Detective
+    - Warden
+    - HeadOfSecurity
+    - Captain
+    - BlueShield
+  prototype: ClothingOuterWinterSec
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterCE
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ChiefEngineer
+  prototype: ClothingOuterWinterCE
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterJani
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Janitor
+  prototype: ClothingOuterWinterJani
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterSci
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Scientist
+    - ResearchDirector
+    - ResearchAssistant
+  prototype: ClothingOuterWinterSci
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterChem
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Chemist
+    - ChiefMedicalOfficer
+  prototype: ClothingOuterWinterChem
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterMiner
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingOuterWinterMiner
+
+- type: loadout
+  id: LoadoutOuterClothingOuterWinterChef
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Chef
+    - ServiceWorker
+  prototype: ClothingOuterWinterChef
+
+- type: loadout
+  id: LoadoutOuterClothingOuterCoatBomber
+  category: loadout-category-outerClothing
+  cost: 2
+  exclusive: true
+  prototype: ClothingOuterCoatBomber

@@ -1,0 +1,53 @@
+- type: loadout
+  id: LoadoutEyesClothingEyesGlassesBlueShield
+  category: loadout-category-eyes
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - BlueShield
+    - Warden
+    - HeadOfSecurity
+    - Detective
+    - SecurityOfficer
+  prototype: ClothingEyesGlassesBlueShield
+
+- type: loadout
+  id: LoadoutEyesClothingEyesGlassesMercenary
+  category: loadout-category-eyes
+  cost: 4
+  exclusive: true
+  prototype: ClothingEyesGlassesMercenary
+
+- type: loadout
+  id: LoadoutEyesClothingEyesGlassesBeer
+  category: loadout-category-eyes
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - Bartender
+    - ServiceWorker
+    - Chef
+    - Chemist
+  prototype: ClothingEyesGlassesBeer
+
+- type: loadout
+  id: LoadoutEyesClothingEyesGlassesSunglasses
+  category: loadout-category-eyes
+  cost: 4
+  exclusive: true
+  prototype: ClothingEyesGlassesSunglasses
+
+- type: loadout
+  id: LoadoutEyesClothingEyesGlassesSecurity
+  category: loadout-category-eyes
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - Detective
+    - Warden
+    - BlueShield
+    - HeadOfSecurity
+    - Captain
+  prototype: ClothingEyesGlassesSecurity

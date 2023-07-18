@@ -1,0 +1,79 @@
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesCombat
+  category: loadout-category-hands
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - Captain
+    - HeadOfSecurity
+    - BlueShield
+  prototype: ClothingHandsGlovesCombat
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesColorYellowBudget
+  category: loadout-category-hands
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingHandsGlovesColorYellowBudget
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesColorYellow
+  category: loadout-category-hands
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+    - ResearchAssistant
+    - Scientist
+    - ResearchDirector
+  prototype: ClothingHandsGlovesColorYellow
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesNitrile
+  category: loadout-category-hands
+  cost: 6
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - MedicalDoctor
+    - Paramedic
+    - Chemist
+    - ChiefMedicalOfficer
+  prototype: ClothingHandsGlovesNitrile
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesCluwne
+  category: loadout-category-hands
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingHandsGlovesCluwne
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesLeatherUSSPBlack
+  category: loadout-category-hands
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - Warden
+    - HeadOfSecurity
+    - Detective
+    - BlueShield
+    - Captain
+    - IAA
+  prototype: ClothingHandsGlovesLeatherUSSPBlack

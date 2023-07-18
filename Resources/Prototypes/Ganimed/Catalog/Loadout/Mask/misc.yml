@@ -1,0 +1,126 @@
+- type: loadout
+  id: LoadoutMaskClothingMaskSadMime
+  category: loadout-category-mask
+  cost: 2
+  exclusive: true
+  prototype: ClothingMaskSadMime
+
+- type: loadout
+  id: LoadoutMaskClothingMaskCluwne
+  category: loadout-category-mask
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingMaskCluwne
+
+- type: loadout
+  id: LoadoutMaskClothingMaskRaven
+  category: loadout-category-mask
+  cost: 2
+  exclusive: true
+  prototype: ClothingMaskRaven
+
+- type: loadout
+  id: LoadoutMaskClothingMaskClown
+  category: loadout-category-mask
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingMaskClown
+
+- type: loadout
+  id: LoadoutMaskClothingMaskRat
+  category: loadout-category-mask
+  cost: 2
+  exclusive: true
+  prototype: ClothingMaskRat
+
+- type: loadout
+  id: LoadoutMaskClothingMaskBat
+  category: loadout-category-mask
+  cost: 2
+  exclusive: true
+  prototype: ClothingMaskBat
+
+- type: loadout
+  id: LoadoutMaskClothingMaskFox
+  category: loadout-category-mask
+  cost: 2
+  exclusive: true
+  prototype: ClothingMaskFox
+
+- type: loadout
+  id: LoadoutMaskClothingMaskBear
+  category: loadout-category-mask
+  cost: 2
+  exclusive: true
+  prototype: ClothingMaskBear
+
+- type: loadout
+  id: LoadoutMaskClothingMaskMime
+  category: loadout-category-mask
+  cost: 2
+  exclusive: true
+  prototype: ClothingMaskMime
+
+- type: loadout
+  id: LoadoutMaskClothingMaskBee
+  category: loadout-category-mask
+  cost: 2
+  exclusive: true
+  prototype: ClothingMaskBee
+
+- type: loadout
+  id: LoadoutMaskClothingMaskJoy
+  category: loadout-category-mask
+  cost: 2
+  exclusive: true
+  prototype: ClothingMaskJoy
+
+- type: loadout
+  id: LoadoutMaskClothingMaskSkull
+  category: loadout-category-mask
+  cost: 3
+  exclusive: true
+  prototype: ClothingMaskSkull
+
+- type: loadout
+  id: LoadoutMaskClothingMaskPlague
+  category: loadout-category-mask
+  cost: 3
+  exclusive: true
+  prototype: ClothingMaskPlague
+
+- type: loadout
+  id: LoadoutMaskClothingMaskJackal
+  category: loadout-category-mask
+  cost: 2
+  exclusive: true
+  prototype: ClothingMaskJackal
+
+- type: loadout
+  id: LoadoutMaskClothingMaskMuzzle
+  category: loadout-category-mask
+  cost: 3
+  exclusive: true
+  prototype: ClothingMaskMuzzle
+
+- type: loadout
+  id: LoadoutMaskClothingMaskSexyClown
+  category: loadout-category-mask
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingMaskSexyClown
+
+- type: loadout
+  id: LoadoutMaskClothingMaskSexyMime
+  category: loadout-category-mask
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingMaskSexyMime

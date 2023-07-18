@@ -1,0 +1,184 @@
+- type: loadout
+  id: LoadoutShoesClothingShoesClownLarge
+  category: loadout-category-shoes
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingShoesClownLarge
+
+- type: loadout
+  id: LoadoutShoesClothingShoesBootsCombatFilled
+  category: loadout-category-shoes
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - Warden
+    - HeadOfSecurity
+    - Detective
+    - BlueShield
+    - Captain
+  prototype: ClothingShoesBootsCombatFilled
+
+- type: loadout
+  id: LoadoutShoesClothingShoesBling
+  category: loadout-category-shoes
+  cost: 10
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingShoesBling
+
+- type: loadout
+  id: LoadoutShoesClothingShoesBootsMercFilled
+  category: loadout-category-shoes
+  cost: 5
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - Warden
+    - HeadOfSecurity
+    - Detective
+    - BlueShield
+    - Captain
+  prototype: ClothingShoesBootsMercFilled
+
+- type: loadout
+  id: LoadoutShoesClothingShoesSwat
+  category: loadout-category-shoes
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - Warden
+    - HeadOfSecurity
+    - Detective
+    - BlueShield
+    - Captain
+  prototype: ClothingShoesSwat
+
+- type: loadout
+  id: LoadoutShoesClothingShoesBootsSalvage
+  category: loadout-category-shoes
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - SalvageSpecialist
+    - Quartermaster
+    - CargoTechnician
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+    - Janitor
+  prototype: ClothingShoesBootsSalvage
+
+- type: loadout
+  id: LoadoutShoesClothingShoesGaloshes
+  category: loadout-category-shoes
+  cost: 4
+  exclusive: true
+  prototype: ClothingShoesGaloshes
+
+- type: loadout
+  id: LoadoutShoesClothingShoesClown
+  category: loadout-category-shoes
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingShoesClown
+
+- type: loadout
+  id: LoadoutShoesClothingShoesCluwne
+  category: loadout-category-shoes
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingShoesCluwne
+
+- type: loadout
+  id: LoadoutShoesClothingShoesBootsMag
+  category: loadout-category-shoes
+  cost: 6
+  exclusive: true
+  whitelistJobs:
+    - SalvageSpecialist
+    - Quartermaster
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+    - ResearchDirector
+  prototype: ClothingShoesBootsMag
+
+- type: loadout
+  id: LoadoutShoesClothingShoesChef
+  category: loadout-category-shoes
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Chef
+    - ServiceWorker
+  prototype: ClothingShoesChef
+
+- type: loadout
+  id: LoadoutShoesClothingShoesBootsJackSec
+  category: loadout-category-shoes
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - Warden
+    - HeadOfSecurity
+    - Detective
+    - BlueShield
+    - Captain
+  prototype: ClothingShoesBootsJackSec
+
+- type: loadout
+  id: LoadoutShoesClothingShoesBootsJack
+  category: loadout-category-shoes
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - Warden
+    - HeadOfSecurity
+    - Detective
+    - BlueShield
+    - Captain
+  prototype: ClothingShoesBootsJack
+
+- type: loadout
+  id: LoadoutShoesClothingShoesBootsWork
+  category: loadout-category-shoes
+  cost: 2
+  exclusive: true
+  prototype: ClothingShoesBootsWork
+
+- type: loadout
+  id: LoadoutShoesClothingShoesUSSSPBlack
+  category: loadout-category-shoes
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - Warden
+    - HeadOfSecurity
+    - Detective
+    - BlueShield
+    - Captain
+    - IAA
+  prototype: ClothingShoesUSSPBlack
+
+- type: loadout
+  id: LoadoutShoesClothingShoesJester
+  category: loadout-category-shoes
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingShoesJester

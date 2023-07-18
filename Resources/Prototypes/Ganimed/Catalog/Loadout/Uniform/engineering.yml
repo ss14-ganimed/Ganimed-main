@@ -1,0 +1,81 @@
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitAtmosCasual
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - AtmosphericTechnician
+  prototype: ClothingUniformJumpsuitAtmosCasual
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtAtmos
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+  prototype: ClothingUniformJumpskirtAtmos
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitAtmos
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+  prototype: ClothingUniformJumpsuitAtmos
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitEngineeringHazard
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpsuitEngineeringHazard
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtEngineering
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+  prototype: ClothingUniformJumpskirtEngineering
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitEngineering
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+  prototype: ClothingUniformJumpsuitEngineering
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitChiefEngineer
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ChiefEngineer
+  prototype: ClothingUniformJumpsuitChiefEngineer
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtChiefEngineer
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ChiefEngineer
+  prototype: ClothingUniformJumpskirtChiefEngineer

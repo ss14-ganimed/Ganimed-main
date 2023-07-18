@@ -1,0 +1,168 @@
+- type: loadout
+  id: LoadoutUniformUniformShortsRed
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: UniformShortsRed
+
+- type: loadout
+  id: LoadoutUniformUniformShortsRedWithTop
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: UniformShortsRedWithTop
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtCentcomOfficer
+  category: loadout-category-uniform
+  cost: 5
+  exclusive: true
+  prototype: ClothingUniformJumpskirtCentcomOfficer
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitCentcomOfficer
+  category: loadout-category-uniform
+  cost: 5
+  exclusive: true
+  prototype: ClothingUniformJumpsuitCentcomOfficer
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitHawaiYellow
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpsuitHawaiYellow
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitCossack
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpsuitCossack
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtCaptain
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Captain
+  prototype: ClothingUniformJumpskirtCaptain
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitCaptain
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Captain
+  prototype: ClothingUniformJumpsuitCaptain
+
+- type: loadout
+  id: LoadoutUniformClothingUniformOveralls
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformOveralls
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitSkeleton
+  category: loadout-category-uniform
+  cost: 3
+  exclusive: true
+  prototype: ClothingUniformJumpsuitSkeleton
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitAerostatic
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpsuitAerostatic
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitDameDane
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  prototype: ClothingUniformJumpsuitDameDane
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitHawaiRed
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpsuitHawaiRed
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitPirate
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  prototype: ClothingUniformJumpsuitPirate
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitHawaiBlue
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpsuitHawaiBlue
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitAncient
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpsuitAncient
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitCapFormal
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Captain
+  prototype: ClothingUniformJumpsuitCapFormal
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtCapFormalDress
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Captain
+  prototype: ClothingUniformJumpskirtCapFormalDress
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitFlannel
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpsuitFlannel
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtJanimaid
+  category: loadout-category-uniform
+  cost: 3
+  exclusive: true
+  prototype: ClothingUniformJumpskirtJanimaid
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtJanimaidmini
+  category: loadout-category-uniform
+  cost: 3
+  exclusive: true
+  prototype: ClothingUniformJumpskirtJanimaidmini
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtOfLife
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpskirtOfLife
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtPerformer
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  prototype: ClothingUniformJumpskirtPerformer

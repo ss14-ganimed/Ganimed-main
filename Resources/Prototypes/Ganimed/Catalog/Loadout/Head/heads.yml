@@ -1,0 +1,80 @@
+- type: loadout
+  id: LoadoutHeadClothingHeadHatCaptain
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Captain
+  prototype: ClothingHeadHatCaptain
+
+- type: loadout
+  id: LoadoutHeadClothingHeadCaptainHat
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Captain
+  prototype: ClothingHeadCaptainHat
+
+- type: loadout
+  id: LoadoutHeadClothingHeadCaptainCap
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Captain
+  prototype: ClothingHeadCaptainCap
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatWarden
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Warden
+  prototype: ClothingHeadHatWarden
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatCapWardenAlt
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Warden
+  prototype: ClothingHeadHatCapWardenAlt
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHopcap
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - HeadOfPersonnel
+  prototype: ClothingHeadHatHopcap
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatCapLeatherHoS
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingHeadHatCapLeatherHoS
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatCapHoS
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingHeadHatCapHoS
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHoshat
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingHeadHatHoshat

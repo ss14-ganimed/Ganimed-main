@@ -1,0 +1,72 @@
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitScientistFormal
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Scientist
+    - ResearchAssistant
+    - ResearchDirector
+  prototype: ClothingUniformJumpsuitScientistFormal
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitScientist
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Scientist
+    - ResearchAssistant
+    - ResearchDirector
+  prototype: ClothingUniformJumpsuitScientist
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtScientist
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Scientist
+    - ResearchAssistant
+    - ResearchDirector
+  prototype: ClothingUniformJumpskirtScientist
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitRoboticist
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Scientist
+    - ResearchAssistant
+    - ResearchDirector
+  prototype: ClothingUniformJumpsuitRoboticist
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtRoboticist
+  category: loadout-category-uniform
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Scientist
+    - ResearchAssistant
+    - ResearchDirector
+  prototype: ClothingUniformJumpskirtRoboticist
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpskirtResearchDirector
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ResearchDirector
+  prototype: ClothingUniformJumpskirtResearchDirector
+
+- type: loadout
+  id: LoadoutUniformClothingUniformJumpsuitResearchDirector
+  category: loadout-category-uniform
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ResearchDirector
+  prototype: ClothingUniformJumpsuitResearchDirector

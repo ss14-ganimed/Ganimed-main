@@ -1,0 +1,92 @@
+- type: loadout
+  id: LoadoutEyesClothingEyesBinoclardLenses
+  category: loadout-category-eyes
+  cost: 1
+  exclusive: true
+  prototype: ClothingEyesBinoclardLenses
+
+- type: loadout
+  id: LoadoutEyesClothingEyesGlassesGarGiga
+  category: loadout-category-eyes
+  cost: 1
+  exclusive: true
+  prototype: ClothingEyesGlassesGarGiga
+
+- type: loadout
+  id: LoadoutEyesClothingEyesEyepatch
+  category: loadout-category-eyes
+  cost: 2
+  exclusive: true
+  prototype: ClothingEyesEyepatch
+
+- type: loadout
+  id: LoadoutEyesClothingEyesGlassesMeson
+  category: loadout-category-eyes
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingEyesGlassesMeson
+
+- type: loadout
+  id: LoadoutEyesClothingEyesGlassesGar
+  category: loadout-category-eyes
+  cost: 1
+  exclusive: true
+  prototype: ClothingEyesGlassesGar
+
+- type: loadout
+  id: LoadoutEyesClothingEyesGlassesThermal
+  category: loadout-category-eyes
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingEyesGlassesThermal
+
+- type: loadout
+  id: LoadoutEyesClothingEyesGlassesGarOrange
+  category: loadout-category-eyes
+  cost: 1
+  exclusive: true
+  prototype: ClothingEyesGlassesGarOrange
+
+- type: loadout
+  id: LoadoutEyesClothingEyesGlasses
+  category: loadout-category-eyes
+  cost: 1
+  exclusive: true
+  prototype: ClothingEyesGlasses
+
+- type: loadout
+  id: LoadoutEyesClothingEyesGlassesOutlawGlasses
+  category: loadout-category-eyes
+  cost: 1
+  exclusive: true
+  prototype: ClothingEyesGlassesOutlawGlasses
+
+- type: loadout
+  id: LoadoutEyesClothingEyesBlindfold
+  category: loadout-category-eyes
+  cost: 2
+  exclusive: true
+  prototype: ClothingEyesBlindfold
+
+- type: loadout
+  id: LoadoutEyesClothingEyesSalesman
+  category: loadout-category-eyes
+  cost: 1
+  exclusive: true
+  prototype: ClothingEyesSalesman

@@ -1,0 +1,282 @@
+- type: loadout
+  id: LoadoutItemsWeaponHKPhalanx
+  category: loadout-category-items
+  cost: 4
+  whitelistJobs:
+    - BlueShield
+    - HeadOfSecurity
+    - Captain
+  prototype: WeaponHKPhalanx
+
+- type: loadout
+  id: LoadoutItemsWeaponDisablerPractice
+  category: loadout-category-items
+  cost: 1
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - BlueShield
+    - Warden
+    - HeadOfSecurity
+    - Detective
+    - HeadOfPersonnel
+    - Captain
+  prototype: WeaponDisablerPractice
+
+- type: loadout
+  id: LoadoutItemsWeaponDisabler
+  category: loadout-category-items
+  cost: 3
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - BlueShield
+    - Warden
+    - HeadOfSecurity
+    - Detective
+    - HeadOfPersonnel
+    - Captain
+  prototype: WeaponDisabler
+
+- type: loadout
+  id: KitchenKnife
+  category: loadout-category-items
+  cost: 2
+  whitelistJobs:
+    - Chef
+    - ServiceWorker
+  prototype: KitchenKnife
+
+- type: loadout
+  id: LoadoutItemsHydroponicsToolScythe
+  category: loadout-category-items
+  cost: 3
+  whitelistJobs:
+    - Botanist
+  prototype: HydroponicsToolScythe
+
+- type: loadout
+  id: LoadoutItemsSpear
+  category: loadout-category-items
+  cost: 4
+  whitelistJobs:
+    - HeadOfSecurity
+    - Captain
+    - Chaplain
+    - SecurityCadet
+    - SecurityOfficer
+    - Warden
+    - BlueShield
+    - Detective
+  prototype: Spear
+
+- type: loadout
+  id: LoadoutItemsKatana
+  category: loadout-category-items
+  cost: 3
+  whitelistJobs:
+    - HeadOfSecurity
+    - Captain
+  prototype: Katana
+
+- type: loadout
+  id: LoadoutItemsWeaponCrusherDagger
+  category: loadout-category-items
+  cost: 3
+  whitelistJobs:
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: WeaponCrusherDagger
+
+- type: loadout
+  id: LoadoutItemsWeaponPickaxe
+  category: loadout-category-items
+  cost: 2
+  whitelistJobs:
+    - SalvageSpecialist
+    - Quartermaster
+    - CargoTechnician
+  prototype: Pickaxe
+
+- type: loadout
+  id: LoadoutItemsClaymore
+  category: loadout-category-items
+  cost: 6
+  whitelistJobs:
+    - HeadOfSecurity
+    - Captain
+    - Chaplain
+  prototype: Claymore
+
+- type: loadout
+  id: LoadoutItemsWeaponShotgunDoubleBarreledRubber
+  category: loadout-category-items
+  cost: 5
+  whitelistJobs:
+    - Captain
+    - Detective
+    - Chaplain
+    - Bartender
+    - HeadOfSecurity
+  prototype: WeaponShotgunDoubleBarreledRubber
+
+- type: loadout
+  id: LoadoutItemsSawElectric
+  category: loadout-category-items
+  cost: 4
+  whitelistJobs:
+    - ResearchAssistant
+    - Scientist
+    - ResearchDirector
+    - MedicalDoctor
+    - MedicalIntern
+    - Chemist
+    - Paramedic
+    - ChiefEngineer
+    - Psychologist
+  prototype: SawElectric
+
+- type: loadout
+  id: LoadoutItemsDrill
+  category: loadout-category-items
+  cost: 3
+  whitelistJobs:
+    - ResearchAssistant
+    - Scientist
+    - ResearchDirector
+    - MedicalDoctor
+    - MedicalIntern
+    - Chemist
+    - Paramedic
+    - Psychologist
+  prototype: Drill
+
+- type: loadout
+  id: LoadoutItemsWeaponWaterPistol
+  category: loadout-category-items
+  cost: 2
+  prototype: WeaponWaterPistol
+
+- type: loadout
+  id: LoadoutItemsFlash
+  category: loadout-category-items
+  cost: 2
+  whitelistJobs:
+    - Warden
+    - BlueShield
+    - HeadOfSecurity
+    - SecurityOfficer
+    - SecurityCadet
+    - Detective
+    - ChiefEngineer
+    - ChiefMedicalOfficer
+    - Captain
+    - IAA
+    - Quartermaster
+    - HeadOfPersonnel
+    - ResearchDirector
+  prototype: Flash
+
+- type: loadout
+  id: LoadoutItemsCombatKnife
+  category: loadout-category-items
+  cost: 5
+  whitelistJobs:
+    - Warden
+    - BlueShield
+    - HeadOfSecurity
+    - ChiefMedicalOfficer
+    - Paramedic
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: CombatKnife
+
+- type: loadout
+  id: LoadoutItemsBaseBallBat
+  category: loadout-category-items
+  cost: 4
+  prototype: BaseBallBat
+
+- type: loadout
+  id: LoadoutItemsWeaponRevolverDeckard
+  category: loadout-category-items
+  cost: 4
+  whitelistJobs:
+    - Captain
+  prototype: WeaponRevolverDeckard
+
+- type: loadout
+  id: LoadoutItemsWeaponRevolverInspector
+  category: loadout-category-items
+  cost: 3
+  whitelistJobs:
+    - HeadOfSecurity
+    - Detective
+  prototype: WeaponRevolverInspector
+
+- type: loadout
+  id: LoadoutItemsWeaponPistolCHIMP
+  category: loadout-category-items
+  cost: 5
+  whitelistJobs:
+    - ResearchDirector
+    - Scientist
+    - ResearchAssistant
+  prototype: WeaponPistolCHIMP
+
+- type: loadout
+  id: LoadoutItemsWeaponPistolMk58
+  category: loadout-category-items
+  cost: 6
+  whitelistJobs:
+    - SecurityOfficer
+    - SecurityCadet
+    - Warden
+    - Detective
+    - BlueShield
+    - HeadOfSecurity
+  prototype: WeaponPistolMk58
+
+- type: loadout
+  id: LoadoutItemsWeaponFlareGun
+  category: loadout-category-items
+  cost: 3
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - BlueShield
+    - Warden
+    - HeadOfSecurity
+    - Detective
+    - AtmosphericTechnician
+    - StationEngineer
+    - ChiefEngineer
+    - Quartermaster
+    - SalvageSpecialist
+    - CargoTechnician
+    - Captain
+  prototype: WeaponFlareGun
+
+- type: loadout
+  id: LoadoutItemsMachete
+  category: loadout-category-items
+  cost: 5
+  whitelistJobs:
+    - Captain
+    - SalvageSpecialist
+    - HeadOfSecurity
+  prototype: Machete
+
+- type: loadout
+  id: LoadoutItemsStunbaton
+  category: loadout-category-items
+  cost: 3
+  whitelistJobs:
+    - Warden
+    - BlueShield
+    - HeadOfSecurity
+    - SecurityOfficer
+    - SecurityCadet
+    - Detective
+    - Captain
+  prototype: Stunbaton

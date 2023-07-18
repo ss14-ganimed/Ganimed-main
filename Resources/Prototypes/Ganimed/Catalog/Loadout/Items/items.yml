@@ -1,0 +1,127 @@
+- type: loadout
+  id: LoadoutItemsPlantBGoneSpray
+  category: loadout-category-items
+  cost: 1
+  prototype: PlantBGoneSpray
+
+- type: loadout
+  id: LoadoutItemsNitrogenTankFilled
+  category: loadout-category-items
+  cost: 3
+  prototype: NitrogenTankFilled
+
+- type: loadout
+  id: LoadoutItemsOxygenTankFilled
+  category: loadout-category-items
+  cost: 3
+  prototype: OxygenTankFilled
+
+- type: loadout
+  id: LoadoutItemsDrinkFlaskBar
+  category: loadout-category-items
+  cost: 1
+  prototype: DrinkFlaskBar
+
+- type: loadout
+  id: LoadoutItemsBible
+  category: loadout-category-items
+  cost: 4
+  prototype: Bible
+
+- type: loadout
+  id: LoadoutItemsBola
+  category: loadout-category-items
+  cost: 1
+  whitelistJobs:
+    - Warden
+    - BlueShield
+    - HeadOfSecurity
+    - SecurityOfficer
+    - SecurityCadet
+    - Detective
+  prototype: Bola
+
+- type: loadout
+  id: LoadoutItemsLargeBeaker
+  category: loadout-category-items
+  cost: 2
+  prototype: LargeBeaker
+
+- type: loadout
+  id: LoadoutItemsJug
+  category: loadout-category-items
+  cost: 2
+  prototype: Jug
+
+- type: loadout
+  id: LoadoutItemsDrinkVacuumFlask
+  category: loadout-category-items
+  cost: 1
+  prototype: DrinkVacuumFlask
+
+- type: loadout
+  id: LoadoutItemsDrinkShaker
+  category: loadout-category-items
+  cost: 2
+  whitelistJobs:
+    - Bartender
+    - ServiceWorker
+  prototype: DrinkShaker
+
+- type: loadout
+  id: LoadoutItemsHandcuffs
+  category: loadout-category-items
+  cost: 1
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - BlueShield
+    - Warden
+    - HeadOfSecurity
+    - Detective
+  prototype: Handcuffs
+
+- type: loadout
+  id: LoadoutItemsFireExtinguisher
+  category: loadout-category-items
+  cost: 3
+  prototype: FireExtinguisher
+
+- type: loadout
+  id: LoadoutItemsRiotBulletShield
+  category: loadout-category-items
+  cost: 4
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - BlueShield
+    - Warden
+    - HeadOfSecurity
+    - Detective
+  prototype: RiotBulletShield
+
+- type: loadout
+  id: LoadoutItemsRiotLaserShield
+  category: loadout-category-items
+  cost: 4
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - BlueShield
+    - Warden
+    - HeadOfSecurity
+    - Detective
+  prototype: RiotLaserShield
+
+- type: loadout
+  id: LoadoutItemsRiotShield
+  category: loadout-category-items
+  cost: 4
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - BlueShield
+    - Warden
+    - HeadOfSecurity
+    - Detective
+  prototype: RiotShield

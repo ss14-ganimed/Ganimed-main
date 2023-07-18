@@ -1,0 +1,46 @@
+- type: loadout
+  id: LoadoutEarsClothingHeadsetMedicalScience
+  category: loadout-category-ears
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - ResearchDirector
+    - Scientist
+    - MedicalDoctor
+    - Chemist
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingHeadsetMedicalScience
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetBrigmedic
+  category: loadout-category-ears
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - ChiefMedicalOfficer
+    - Paramedic
+  prototype: ClothingHeadsetBrigmedic
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetRobotics
+  category: loadout-category-ears
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Scientist
+    - ResearchAssistant
+    - ResearchDirector
+  prototype: ClothingHeadsetRobotics
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetMining
+  category: loadout-category-ears
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingHeadsetMining

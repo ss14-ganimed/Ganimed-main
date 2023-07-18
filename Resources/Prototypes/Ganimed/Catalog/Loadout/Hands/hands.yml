@@ -1,0 +1,99 @@
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesAerostatic
+  category: loadout-category-hands
+  cost: 1
+  exclusive: true
+  prototype: ClothingHandsGlovesAerostatic
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesFingerless
+  category: loadout-category-hands
+  cost: 1
+  exclusive: true
+  prototype: ClothingHandsGlovesFingerless
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesMercFingerless
+  category: loadout-category-hands
+  cost: 2
+  exclusive: true
+  prototype: ClothingHandsGlovesMercFingerless
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesIhscombat
+  category: loadout-category-hands
+  cost: 2
+  exclusive: true
+  prototype: ClothingHandsGlovesIhscombat
+
+- type: loadout
+  id: LoadoutHandsClothingHandsWatchDivine
+  category: loadout-category-hands
+  cost: 2
+  exclusive: true
+  prototype: ClothingHandsWatchDivine
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesBoxingYellow
+  category: loadout-category-hands
+  cost: 1
+  exclusive: true
+  prototype: ClothingHandsGlovesBoxingYellow
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesCaptain
+  category: loadout-category-hands
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Captain
+  prototype: ClothingHandsGlovesCaptain
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesLeatherHoS
+  category: loadout-category-hands
+  cost: 1
+  exclusive: true
+  prototype: ClothingHandsGlovesLeatherHoS
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesLeather
+  category: loadout-category-hands
+  cost: 1
+  exclusive: true
+  prototype: ClothingHandsGlovesLeather
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesBoxingRed
+  category: loadout-category-hands
+  cost: 1
+  exclusive: true
+  prototype: ClothingHandsGlovesBoxingRed
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesLatex
+  category: loadout-category-hands
+  cost: 1
+  exclusive: true
+  prototype: ClothingHandsGlovesLatex
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesRobohands
+  category: loadout-category-hands
+  cost: 1
+  exclusive: true
+  prototype: ClothingHandsGlovesRobohands
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesPowerglove
+  category: loadout-category-hands
+  cost: 3
+  exclusive: true
+  prototype: ClothingHandsGlovesPowerglove
+
+- type: loadout
+  id: LoadoutHandsClothingHandsGlovesBoxingBlue
+  category: loadout-category-hands
+  cost: 1
+  exclusive: true
+  prototype: ClothingHandsGlovesBoxingBlue

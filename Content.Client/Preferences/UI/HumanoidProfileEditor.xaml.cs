@@ -81,7 +81,7 @@ namespace Content.Client.Preferences.UI
 		private ProgressBar _loadoutPoints => LoadoutPoints;
         private BoxContainer _loadoutsTab => CLoadoutsTab;
         private TabContainer _loadoutsTabs => CLoadoutsTabs;
-        private readonly int StartLoadoutPoints = 14;
+        private readonly int StartLoadoutPoints = 16;
         private readonly List<JobPrioritySelector> _jobPriorities;
         private OptionButton _preferenceUnavailableButton => CPreferenceUnavailableButton;
         private readonly Dictionary<string, BoxContainer> _jobCategories;

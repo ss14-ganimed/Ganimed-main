@@ -1,0 +1,86 @@
+- type: loadout
+  id: LoadoutEarsClothingHeadsetIAA
+  category: loadout-category-ears
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - IAA
+  prototype: ClothingHeadsetIAA
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetEngineering
+  category: loadout-category-ears
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+  prototype: ClothingHeadsetEngineering
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetCommand
+  category: loadout-category-ears
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Captain
+    - HeadOfPersonnel
+  prototype: ClothingHeadsetCommand
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetMedical
+  category: loadout-category-ears
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - MedicalDoctor
+    - Chemist
+    - ChiefMedicalOfficer
+    - Paramedic
+  prototype: ClothingHeadsetMedical
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetScience
+  category: loadout-category-ears
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ResearchAssistant
+    - Scientist
+    - ResearchDirector
+  prototype: ClothingHeadsetScience
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetCargo
+  category: loadout-category-ears
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingHeadsetCargo
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetGrey
+  category: loadout-category-ears
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadsetGrey
+
+- type: loadout
+  id: LoadoutEarsClothingHeadsetSecurity
+  category: loadout-category-ears
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - Detective
+    - Warden
+    - BlueShield
+    - HeadOfSecurity
+  prototype: ClothingHeadsetSecurity

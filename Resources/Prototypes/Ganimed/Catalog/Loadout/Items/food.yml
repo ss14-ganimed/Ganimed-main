@@ -1,0 +1,73 @@
+- type: loadout
+  id: LoadoutItemsBoxMRE
+  category: loadout-category-items
+  cost: 1
+  prototype: BoxMRE
+
+- type: loadout
+  id: LoadoutItemsFoodPineapple
+  category: loadout-category-items
+  cost: 1
+  prototype: FoodPineapple
+
+- type: loadout
+  id: LoadoutItemsFoodFrozenPopsicleOrange
+  category: loadout-category-items
+  cost: 1
+  prototype: FoodFrozenPopsicleOrange
+
+- type: loadout
+  id: LoadoutItemsDrinkFourteenLokoCan
+  category: loadout-category-items
+  cost: 1
+  prototype: DrinkFourteenLokoCan
+
+- type: loadout
+  id: LoadoutItemsFoodBoxDonkpocket
+  category: loadout-category-items
+  cost: 2
+  prototype: FoodBoxDonkpocket
+
+- type: loadout
+  id: LoadoutItemsMonkeyCubeBox
+  category: loadout-category-items
+  cost: 3
+  prototype: MonkeyCubeBox
+
+- type: loadout
+  id: LoadoutItemsFoodBoxDonut
+  category: loadout-category-items
+  cost: 2
+  prototype: FoodBoxDonut
+
+- type: loadout
+  id: LoadoutItemsFoodSnackChocolate
+  category: loadout-category-items
+  cost: 1
+  prototype: FoodSnackChocolate
+
+- type: loadout
+  id: LoadoutItemsFoodDonutJellySlugcat
+  category: loadout-category-items
+  cost: 1
+  prototype: FoodDonutJellySlugcat
+
+- type: loadout
+  id: LoadoutItemsStrangePill
+  category: loadout-category-items
+  cost: 1
+  prototype: StrangePill
+
+- type: loadout
+  id: LoadoutItemsFoodCakeSupperatter
+  category: loadout-category-items
+  cost: 6
+  whitelistJobs:
+    - Chef
+  prototype: FoodCakeSuppermatter
+
+- type: loadout
+  id: LoadoutItemsDrinkTeapot
+  category: loadout-category-items
+  cost: 1
+  prototype: DrinkTeapot

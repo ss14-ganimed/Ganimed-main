@@ -1,0 +1,149 @@
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHoodBioSecurity
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - Captain
+    - HeadOfSecurity
+    - Warden
+    - SecurityCadet
+    - SecurityOfficer
+    - Detective
+    - BlueShield
+  prototype: ClothingHeadHatHoodBioSecurity
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHoodBioCmo
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+  prototype: ClothingHeadHatHoodBioCmo
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHoodBioJanitor
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - Janitor
+  prototype: ClothingHeadHatHoodBioJanitor
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHoodBioScientist
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - Scientist
+    - ResearchAssistant
+    - ResearchDirector
+  prototype: ClothingHeadHatHoodBioScientist
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHoodBioVirology
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - MedicalIntern
+    - Chemist
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingHeadHatHoodBioVirology
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHoodBioGeneral
+  category: loadout-category-head
+  cost: 4
+  exclusive: true
+  prototype: ClothingHeadHatHoodBioGeneral
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHelmetBombSuit
+  category: loadout-category-head
+  cost: 5
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - SecurityCadet
+    - Warden
+    - HeadOfSecurity
+    - BlueShield
+    - Detective
+    - Scientist
+    - ResearchAssistant
+    - ResearchDirector
+  prototype: ClothingHeadHelmetBombSuit
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHelmetRiot
+  category: loadout-category-head
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - SecurityOfficer
+    - SecurityCadet
+    - Warden
+    - HeadOfSecurity
+    - BlueShield
+    - Detective
+  prototype: ClothingHeadHelmetRiot
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHelmetVoidParamed
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+    - Paramedic
+  prototype: ClothingHeadHelmetVoidParamed
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHelmetCosmonaut
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  prototype: ClothingHeadHelmetCosmonaut
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHelmetScaf
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  prototype: ClothingHeadHelmetScaf
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHelmetEVA
+  category: loadout-category-head
+  cost: 5
+  exclusive: true
+  prototype: ClothingHeadHelmetEVA
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatSkub
+  category: loadout-category-head
+  cost: 4
+  exclusive: true
+  prototype: ClothingHeadHatSkub
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHelmetAtmosFire
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - ChiefEngineer
+    - AtmosphericTechnician
+  prototype: ClothingHeadHelmetAtmosFire
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHelmetFire
+  category: loadout-category-head
+  cost: 5
+  exclusive: true
+  prototype: ClothingHeadHelmetFire

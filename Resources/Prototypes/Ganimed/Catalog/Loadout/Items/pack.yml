@@ -1,0 +1,135 @@
+- type: loadout
+  id: LoadoutItemsCigCartonBlue
+  category: loadout-category-items
+  cost: 2
+  prototype: CigCartonBlue
+
+- type: loadout
+  id: LoadoutItemsCigCartonBlack
+  category: loadout-category-items
+  cost: 2
+  prototype: CigCartonBlack
+
+- type: loadout
+  id: LoadoutItemsCigCartonRed
+  category: loadout-category-items
+  cost: 2
+  prototype: CigCartonRed
+
+- type: loadout
+  id: LoadoutItemsCigCartonGreen
+  category: loadout-category-items
+  cost: 2
+  prototype: CigCartonGreen
+
+- type: loadout
+  id: LoadoutItemsMedkitCombatFilled
+  category: loadout-category-items
+  cost: 4
+  whitelistJobs:
+    - Warden
+    - BlueShield
+    - HeadOfSecurity
+    - ChiefMedicalOfficer
+    - Paramedic
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: MedkitCombatFilled
+
+- type: loadout
+  id: LoadoutItemsBoxLatexGloves
+  category: loadout-category-items
+  cost: 2
+  whitelistJobs:
+    - ChiefMedicalOfficer
+    - MedicalDoctor
+    - MedicalIntern
+    - Chemist
+    - Paramedic
+    - Psychologist
+  prototype: BoxLatexGloves
+
+- type: loadout
+  id: LoadoutItemsBoxSterileMask
+  category: loadout-category-items
+  cost: 2
+  whitelistJobs:
+    - ChiefMedicalOfficer
+    - MedicalDoctor
+    - MedicalIntern
+    - Chemist
+    - Paramedic
+    - Psychologist
+  prototype: BoxSterileMask
+
+- type: loadout
+  id: LoadoutItemsBoxMousetrap
+  category: loadout-category-items
+  cost: 2
+  whitelistJobs:
+    - ChiefMedicalOfficer
+    - MedicalDoctor
+    - MedicalIntern
+    - Chemist
+    - Paramedic
+    - Psychologist
+  prototype: BoxMousetrap
+
+- type: loadout
+  id: LoadoutItemsBoxHandcuff
+  category: loadout-category-items
+  cost: 2
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - BlueShield
+    - Warden
+    - HeadOfSecurity
+    - Detective
+  prototype: BoxHandcuff
+
+- type: loadout
+  id: LoadoutItemsBoxLightMixed
+  category: loadout-category-items
+  cost: 2
+  whitelistJobs:
+    - Janitor
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+  prototype: BoxLightMixed
+
+- type: loadout
+  id: LoadoutItemsBoxSurvival
+  category: loadout-category-items
+  cost: 3
+  prototype: BoxSurvival
+
+- type: loadout
+  id: LoadoutItemsMedkitFilled
+  category: loadout-category-items
+  cost: 3
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - Warden
+    - Detective
+    - BlueShield
+    - HeadOfSecurity
+    - ChiefMedicalOfficer
+    - Chemist
+    - MedicalDoctor
+    - MedicalIntern
+    - Psychologist
+    - Paramedic
+    - SalvageSpecialist
+    - CargoTechnician
+    - Quartermaster
+  prototype: MedkitFilled
+
+- type: loadout
+  id: LoadoutItemsMatchbox
+  category: loadout-category-items
+  cost: 1
+  prototype: Matchbox

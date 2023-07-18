@@ -1,0 +1,96 @@
+- type: loadout
+  id: LoadoutNeckClothingNeckGoldmedal
+  category: loadout-category-neck
+  cost: 5
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+    - HeadOfPersonnel
+    - Captain
+    - ResearchDirector
+    - ChiefEngineer
+    - ChiefMedicalOfficer
+    - Quartermaster
+  prototype: ClothingNeckGoldmedal
+
+- type: loadout
+  id: LoadoutNeckClothingNeckBronzeheart
+  category: loadout-category-neck
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+    - HeadOfPersonnel
+    - Captain
+    - ResearchDirector
+    - ChiefEngineer
+    - ChiefMedicalOfficer
+    - Quartermaster
+  prototype: ClothingNeckBronzeheart
+
+- type: loadout
+  id: LoadoutNeckClothingNeckEngineermedal
+  category: loadout-category-neck
+  cost: 5
+  exclusive: true
+  whitelistJobs:
+    - ChiefEngineer
+    - StationEngineer
+    - AtmosphericEngineer
+  prototype: ClothingNeckEngineermedal
+
+- type: loadout
+  id: LoadoutNeckClothingNeckClownmedal
+  category: loadout-category-neck
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - Clown
+    - Mime
+  prototype: ClothingNeckClownmedal
+
+- type: loadout
+  id: LoadoutNeckClothingNeckMedicalmedal
+  category: loadout-category-neck
+  cost: 5
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - Paramedic
+    - Chemist
+    - ChiefMedicalOfficer
+  prototype: ClothingNeckMedicalmedal
+
+- type: loadout
+  id: LoadoutNeckClothingNeckSciencemedal
+  category: loadout-category-neck
+  cost: 5
+  exclusive: true
+  whitelistJobs:
+    - Scientist
+    - ResearchDirector
+  prototype: ClothingNeckSciencemedal
+
+- type: loadout
+  id: LoadoutNeckClothingNeckSecuritymedal
+  category: loadout-category-neck
+  cost: 5
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - Warden
+    - Detective
+    - HeadOfSecurity
+    - BlueShield
+  prototype: ClothingNeckSecuritymedal
+
+- type: loadout
+  id: LoadoutNeckClothingNeckCargomedal
+  category: loadout-category-neck
+  cost: 5
+  exclusive: true
+  whitelistJobs:
+    - CargoTechnician
+    - SalvageSpecialist
+    - Quartermaster
+  prototype: ClothingNeckCargomedal

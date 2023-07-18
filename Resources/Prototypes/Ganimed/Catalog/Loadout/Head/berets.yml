@@ -1,0 +1,94 @@
+- type: loadout
+  id: LoadoutHeadClothingHeadHatBeretNavyBlue
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - BlueShield
+    - Warden
+    - HeadOfSecurity
+    - SecurityOfficer
+    - SecurityCadet
+    - Detective
+  prototype: ClothingHeadHatBeretNavyBlue
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatBeret
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  prototype: ClothingHeadHatBeret
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatBeretSecurityMedic
+  category: loadout-category-head
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - ChiefMedicalOfficer
+    - Paramedic
+  prototype: ClothingHeadHatBeretSecurityMedic
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatBeretCmo
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ChiefMedicalOfficer
+  prototype: ClothingHeadHatBeretCmo
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatBeretHoS
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - HeadOfSecurity
+  prototype: ClothingHeadHatBeretHoS
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatBeretEngineering
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+  prototype: ClothingHeadHatBeretEngineering
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatBeretBrigmedic
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - MedicalDoctor
+    - MedicalIntern
+    - Chemist
+    - ChiefMedicalOfficer
+    - Paramedic
+  prototype: ClothingHeadHatBeretBrigmedic
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatBeretWarden
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Warden
+  prototype: ClothingHeadHatBeretWarden
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatBeretRND
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - ResearchAssistant
+    - Scientist
+    - ResearchDirector
+  prototype: ClothingHeadHatBeretRND

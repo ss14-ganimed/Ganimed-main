@@ -1,0 +1,52 @@
+- type: loadout
+  id: LoadoutItemsAcousticGuitarInstrument
+  category: loadout-category-items
+  cost: 2
+  prototype: AcousticGuitarInstrument
+
+- type: loadout
+  id: LoadoutItemsBananaPhoneInstrument
+  category: loadout-category-items
+  cost: 4
+  whitelistJobs:
+    - Clown
+  prototype: BananaPhoneInstrument
+
+- type: loadout
+  id: LoadoutItemsHarmonicaInstrument
+  category: loadout-category-items
+  cost: 1
+  prototype: HarmonicaInstrument
+
+- type: loadout
+  id: LoadoutItemsMicrophoneInstrument
+  category: loadout-category-items
+  cost: 1
+  prototype: MicrophoneInstrument
+
+- type: loadout
+  id: LoadoutItemsRockGuitarInstrument
+  category: loadout-category-items
+  cost: 3
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - BlueShield
+    - Warden
+    - HeadOfSecurity
+    - Detective
+  prototype: RockGuitarInstrument
+
+- type: loadout
+  id: LoadoutItemsSynthesizerInstrument
+  category: loadout-category-items
+  cost: 2
+  prototype: SynthesizerInstrument
+
+- type: loadout
+  id: LoadoutItemsSuperSynthesizerInstrument
+  category: loadout-category-items
+  cost: 6
+  whitelistJobs:
+    - Musician
+  prototype: SuperSynthesizerInstrument

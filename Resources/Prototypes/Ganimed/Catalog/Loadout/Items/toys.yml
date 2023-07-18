@@ -1,0 +1,113 @@
+- type: loadout
+  id: LoadoutItemPersonalAI
+  category: loadout-category-items
+  cost: 3
+  prototype: PersonalAI
+
+- type: loadout
+  id: LoadoutItemsSkub
+  category: loadout-category-items
+  cost: 5
+  prototype: Skub
+
+- type: loadout
+  id: LoadoutItemsPlushieSharkBlue
+  category: loadout-category-items
+  cost: 1
+  prototype: PlushieSharkBlue
+
+- type: loadout
+  id: LoadoutItemsPlushieSharkPink
+  category: loadout-category-items
+  cost: 1
+  prototype: PlushieSharkPink
+
+- type: loadout
+  id: LoadoutItemsPlushieSharkGrey
+  category: loadout-category-items
+  cost: 1
+  prototype: PlushieSharkGrey
+
+- type: loadout
+  id: LoadoutItemsToyIan
+  category: loadout-category-items
+  cost: 1
+  prototype: ToyIan
+
+- type: loadout
+  id: LoadoutItemsRevolverCapGun
+  category: loadout-category-items
+  cost: 2
+  prototype: RevolverCapGun
+
+- type: loadout
+  id: LoadoutItemsBackgammonBoard
+  category: loadout-category-items
+  cost: 1
+  prototype: BackgammonBoard
+
+- type: loadout
+  id: LoadoutItemsParchisBoard
+  category: loadout-category-items
+  cost: 1
+  prototype: ParchisBoard
+
+- type: loadout
+  id: LoadoutItemsBasketball
+  category: loadout-category-items
+  cost: 1
+  prototype: Basketball
+
+- type: loadout
+  id: LoadoutItemsRGBStaff
+  category: loadout-category-items
+  cost: 4
+  prototype: RGBStaff
+
+- type: loadout
+  id: LoadoutItemsPlasticBanana
+  category: loadout-category-items
+  cost: 1
+  prototype: PlasticBanana
+
+- type: loadout
+  id: LoadoutItemsPlushieHampter
+  category: loadout-category-items
+  cost: 1
+  prototype: PlushieHampter
+
+- type: loadout
+  id: LoadoutItemsToyHammer
+  category: loadout-category-items
+  cost: 1
+  whitelistJobs:
+    - Clown
+    - Mime
+  prototype: ToyHammer
+
+- type: loadout
+  id: LoadoutItemsVehicleUnicycleFolded
+  category: loadout-category-items
+  cost: 3
+  whitelistJobs:
+    - Clown
+    - Mime
+  prototype: VehicleUnicycleFolded
+
+- type: loadout
+  id: LoadoutItemsWhoopieCushion
+  category: loadout-category-items
+  cost: 1
+  prototype: WhoopieCushion
+
+- type: loadout
+  id: LoadoutItemsCrayonBox
+  category: loadout-category-items
+  cost: 1
+  prototype: CrayonBox
+
+- type: loadout
+  id: LoadoutItemsHeadSkeleton
+  category: loadout-category-items
+  cost: 3
+  prototype: HeadSkeleton

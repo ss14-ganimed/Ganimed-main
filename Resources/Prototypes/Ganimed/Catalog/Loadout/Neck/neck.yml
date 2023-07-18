@@ -1,0 +1,68 @@
+- type: loadout
+  id: LoadoutNeckClothingNeckTieDet
+  category: loadout-category-neck
+  cost: 2
+  exclusive: true
+  prototype: ClothingNeckTieDet
+
+- type: loadout
+  id: LoadoutNeckClothingNeckTieSci
+  category: loadout-category-neck
+  cost: 2
+  exclusive: true
+  prototype: ClothingNeckTieSci
+
+- type: loadout
+  id: LoadoutNeckClothingNeckLawyerbadge
+  category: loadout-category-neck
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - IAA
+    - Warden
+    - HeadOfSecurity
+    - Captain
+    - HeadOfPersonnel
+    - Detective
+  prototype: ClothingNeckLawyerbadge
+
+- type: loadout
+  id: LoadoutNeckClothingNeckHorrific
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckHorrific
+
+- type: loadout
+  id: LoadoutNeckClothingNeckTieRed
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckTieRed
+
+- type: loadout
+  id: LoadoutNeckClothingNeckHeadphones
+  category: loadout-category-neck
+  cost: 1
+  exclusive: true
+  prototype: ClothingNeckHeadphones
+
+- type: loadout
+  id: LoadoutNeckClothingNeckBling
+  category: loadout-category-neck
+  cost: 6
+  exclusive: true
+  prototype: ClothingNeckBling
+
+- type: loadout
+  id: LoadoutNeckClothingNeckStethoscope
+  category: loadout-category-neck
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - MedicalDoctor
+    - Chemist
+    - Paramedic
+    - ChiefMedicalOfficer
+  prototype: ClothingNeckStethoscope

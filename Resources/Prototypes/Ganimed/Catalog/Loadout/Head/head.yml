@@ -1,0 +1,255 @@
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHoodCulthood
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatHoodCulthood
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHoodNunHood
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Chaplain
+  prototype: ClothingHeadHatHoodNunHood
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHoodRad
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - ResearchAssistant
+    - ResearchDirector
+    - Scientist
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+  prototype: ClothingHeadHatHoodRad
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatHoodChaplainHood
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Chaplain
+  prototype: ClothingHeadHatHoodChaplainHood
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHelmetHelmetOld
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - ResearchAssistant
+    - ResearchDirector
+    - Scientist
+    - TechnicalAssistant
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+    - SecurityCadet
+    - SecurityOfficer
+    - Detective
+    - BlueShield
+    - Warden
+    - HeadOfSecurity
+  prototype: ClothingHeadHelmetHelmetOld
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHelmetHelmet
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - SecurityOfficer
+    - Detective
+    - BlueShield
+    - Warden
+    - HeadOfSecurity
+  prototype: ClothingHeadHelmetHelmet
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatCatEars
+  category: loadout-category-head
+  cost: 5
+  exclusive: true
+  prototype: ClothingHeadHatCatEars
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatPirateTricord
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  prototype: ClothingHeadHatPirateTricord
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatPirate
+  category: loadout-category-head
+  cost: 3
+  exclusive: true
+  prototype: ClothingHeadHatPirate
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatChef
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ServiceWorker
+    - Chef
+  prototype: ClothingHeadHatChef
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatWeldingMaskPainted
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - ChiefEngineer
+    - AtmosphericTechnician
+    - TechnicalAssistant
+    - StationEngineer
+  prototype: ClothingHeadHatWeldingMaskPainted
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatFancyCrown
+  category: loadout-category-head
+  cost: 6
+  exclusive: true
+  prototype: ClothingHeadHatFancyCrown
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatWelding
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - TechnicalAssistant
+    - StationEngineer
+    - ChiefEngineer
+    - AtmosphericTechnician
+  prototype: ClothingHeadHatWelding
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatWeldingMaskFlame
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - TechnicalAssistant
+    - StationEngineer
+    - ChiefEngineer
+    - AtmosphericTechnician
+  prototype: ClothingHeadHatWeldingMaskFlame
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatWeldingMaskFlameBlue
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - TechnicalAssistant
+    - StationEngineer
+    - ChiefEngineer
+    - AtmosphericTechnician
+  prototype: ClothingHeadHatWeldingMaskFlameBlue
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatCapUSSPBlack
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  whitelistJobs:
+    - Warden
+    - HeadOfSecurity
+    - Detective
+    - BlueShield
+    - Captain
+    - IAA
+  prototype: ClothingHeadHatCapUSSPBlack
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatSurgcapGreen
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - MedicalDoctor
+    - ChiefMedicalOfficer
+    - Paramedic
+  prototype: ClothingHeadHatSurgcapGreen
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatSurgcapBlue
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - MedicalDoctor
+    - ChiefMedicalOfficer
+    - Paramedic
+  prototype: ClothingHeadHatSurgcapBlue
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatSurgcapPurple
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - MedicalDoctor
+    - ChiefMedicalOfficer
+    - Paramedic
+  prototype: ClothingHeadHatSurgcapPurple
+
+- type: loadout
+  id: LoadoutHeadClothingHeadNurseHat
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - MedicalIntern
+    - MedicalDoctor
+    - ChiefMedicalOfficer
+    - Paramedic
+    - Chemist
+  prototype: ClothingHeadNurseHat
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHelmetWizardHelm
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHelmetWizardHelm
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatPlaguedoctor
+  category: loadout-category-head
+  cost: 2
+  exclusive: true
+  prototype: ClothingHeadHatPlaguedoctor
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatJester
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingHeadHatJester
+
+- type: loadout
+  id: LoadoutHeadClothingHeadHatJesterAlt
+  category: loadout-category-head
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Clown
+  prototype: ClothingHeadHatJesterAlt

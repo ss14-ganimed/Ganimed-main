@@ -1,0 +1,121 @@
+- type: loadout
+  id: LoadoutMaskClothingMaskGasAtmos
+  category: loadout-category-mask
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+  prototype: ClothingMaskGasAtmos
+
+- type: loadout
+  id: LoadoutMaskClothingMaskBreathMedicalSecurity
+  category: loadout-category-mask
+  cost: 4
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - Detective
+    - SecurityOfficer
+    - Warden
+    - BlueShield
+    - HeadOfSecurity
+    - MedicalIntern
+    - MedicalDoctor
+    - Chemist
+    - ChiefMedicalOfficer
+    - Paramedic
+  prototype: ClothingMaskBreathMedicalSecurity
+
+- type: loadout
+  id: LoadoutMaskClothingMaskBreathMedical
+  category: loadout-category-mask
+  cost: 6
+  exclusive: true
+  prototype: ClothingMaskBreathMedical
+
+- type: loadout
+  id: LoadoutMaskClothingMaskGas
+  category: loadout-category-mask
+  cost: 6
+  exclusive: true
+  prototype: ClothingMaskGas
+
+- type: loadout
+  id: LoadoutMaskClothingMaskGasSecurity
+  category: loadout-category-mask
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - SecurityCadet
+    - Detective
+    - SecurityOfficer
+    - Warden
+    - BlueShield
+    - HeadOfSecurity
+  prototype: ClothingMaskGasSecurity
+
+- type: loadout
+  id: LoadoutMaskClothingMaskGasCentcom
+  category: loadout-category-mask
+  cost: 10
+  exclusive: true
+  prototype: ClothingMaskGasCentcom
+
+- type: loadout
+  id: LoadoutMaskClothingMaskGasAtmosian
+  category: loadout-category-mask
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - StationEngineer
+    - AtmosphericTechnician
+    - ChiefEngineer
+  prototype: ClothingMaskGasAtmosian
+
+- type: loadout
+  id: LoadoutMaskClothingMaskGasExplorer
+  category: loadout-category-mask
+  cost: 3
+  exclusive: true
+  whitelistJobs:
+    - SalvageSpecialist
+    - Quartermaster
+    - ChiefEngineer
+    - SecurityOfficer
+    - Warden
+    - BlueShield
+    - HeadOfSecurity
+    - Captain
+  prototype: ClothingMaskGasAtmosian
+
+- type: loadout
+  id: LoadoutMaskClothingMaskGasCaptain
+  category: loadout-category-mask
+  cost: 1
+  exclusive: true
+  whitelistJobs:
+    - Captain
+  prototype: ClothingMaskGasCaptain
+
+- type: loadout
+  id: LoadoutMaskClothingMaskGasSwat
+  category: loadout-category-mask
+  cost: 5
+  exclusive: true
+  whitelistJobs:
+    - Captain
+    - SecurityOfficer
+    - Warden
+    - BlueShield
+    - HeadOfSecurity
+    - Captain
+  prototype: ClothingMaskGasSwat
+
+- type: loadout
+  id: LoadoutMaskClothingMaskSterile
+  category: loadout-category-mask
+  cost: 1
+  exclusive: true
+  prototype: ClothingMaskSterile
