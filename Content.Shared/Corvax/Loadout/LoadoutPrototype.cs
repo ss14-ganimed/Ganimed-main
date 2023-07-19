@@ -59,6 +59,13 @@ public sealed class LoadoutPrototype : IPrototype
     [DataField("isItem")]
     public bool IsItem = false;
 	
+	// Character Preview refusing to put any items in hand, parameter's disabled.
+    /// <summary>
+    ///     Should this item be displayed in hands in Character Preview?
+    /// </summary>
+    //[DataField("displayItem")]
+    //public bool DisplayItem = false;
+	
     // Corvax-Sponsors-Start
     /// <summary>
     ///     Is loadout available to select only for sponsors

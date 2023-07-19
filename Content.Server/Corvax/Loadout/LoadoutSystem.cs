@@ -63,7 +63,7 @@ public sealed class LoadoutSystem : EntitySystem
 				} 
 				else
 				{
-					_handsSystem.TryPickup(ev.Mob, entity);
+					_handsSystem.TryPickupAnyHand(ev.Mob, entity);
 				}
 				continue;
             }

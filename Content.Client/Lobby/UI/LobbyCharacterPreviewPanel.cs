@@ -204,13 +204,17 @@ namespace Content.Client.Lobby.UI
                     continue;
 
                 var entity = entMan.SpawnEntity(loadout.Prototype, MapCoordinates.Nullspace);
-
-                // Take in hand if not clothes
-                if (!entMan.TryGetComponent<ClothingComponent>(entity, out var clothing))
-                {
-                    handsSystem.TryPickup(dummy, entity);
-                    continue;
-                }
+				
+				// Do not render items unless explicitly told to do so.
+				if (loadout.IsItem || !entMan.TryGetComponent<ClothingComponent>(entity, out var clothing))
+				{
+					// Character Preview here refusing to put any items in hand. Needs to be fixed.
+					//if (!loadout.DisplayItem)
+					//	continue;
+					//
+					//handsSystem.TryPickupAnyHand(dummy, entity);
+					continue;
+				}
 
                 // Automatically search empty slot for clothes to equip
                 string? firstSlotName = null;
