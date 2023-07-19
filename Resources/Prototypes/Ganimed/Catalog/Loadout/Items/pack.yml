@@ -66,6 +66,7 @@
   id: LoadoutItemsBoxMousetrap
   category: loadout-category-items
   cost: 2
+  isItem: true
   whitelistJobs:
     - ChiefMedicalOfficer
     - MedicalDoctor
@@ -79,6 +80,7 @@
   id: LoadoutItemsBoxHandcuff
   category: loadout-category-items
   cost: 3
+  isItem: true
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -92,6 +94,7 @@
   id: LoadoutItemsBoxLightMixed
   category: loadout-category-items
   cost: 2
+  isItem: true
   whitelistJobs:
     - Janitor
     - TechnicalAssistant
@@ -104,12 +107,14 @@
   id: LoadoutItemsBoxSurvival
   category: loadout-category-items
   cost: 3
+  isItem: true
   prototype: BoxSurvival
 
 - type: loadout
   id: LoadoutItemsMedkitFilled
   category: loadout-category-items
   cost: 3
+  isItem: true
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -132,4 +137,5 @@
   id: LoadoutItemsMatchbox
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: Matchbox

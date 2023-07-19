@@ -52,7 +52,13 @@ public sealed class LoadoutPrototype : IPrototype
     /// </summary>
     [DataField("exclusive")]
     public bool Exclusive = false;
-
+	
+    /// <summary>
+    ///     Should this item be equipped in any clothing slot?
+    /// </summary>
+    [DataField("isItem")]
+    public bool IsItem = false;
+	
     // Corvax-Sponsors-Start
     /// <summary>
     ///     Is loadout available to select only for sponsors

@@ -2,12 +2,14 @@
   id: LoadoutItemsAcousticGuitarInstrument
   category: loadout-category-items
   cost: 2
+  isItem: true
   prototype: AcousticGuitarInstrument
 
 - type: loadout
   id: LoadoutItemsBananaPhoneInstrument
   category: loadout-category-items
   cost: 4
+  isItem: true
   whitelistJobs:
     - Clown
   prototype: BananaPhoneInstrument
@@ -16,18 +18,21 @@
   id: LoadoutItemsHarmonicaInstrument
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: HarmonicaInstrument
 
 - type: loadout
   id: LoadoutItemsMicrophoneInstrument
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: MicrophoneInstrument
 
 - type: loadout
   id: LoadoutItemsRockGuitarInstrument
   category: loadout-category-items
   cost: 3
+  isItem: true
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -41,12 +46,14 @@
   id: LoadoutItemsSynthesizerInstrument
   category: loadout-category-items
   cost: 2
+  isItem: true
   prototype: SynthesizerInstrument
 
 - type: loadout
   id: LoadoutItemsSuperSynthesizerInstrument
   category: loadout-category-items
   cost: 6
+  isItem: true
   whitelistJobs:
     - Musician
   prototype: SuperSynthesizerInstrument

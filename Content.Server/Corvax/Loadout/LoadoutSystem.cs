@@ -50,11 +50,22 @@ public sealed class LoadoutSystem : EntitySystem
 
             var entity = Spawn(loadout.Prototype, Transform(ev.Mob).Coordinates);
 
-            // Take in hand if not clothes
-            if (!TryComp<ClothingComponent>(entity, out var clothing))
+            // Try to put in backpack or take in hand if not clothes
+            if (loadout.IsItem || !TryComp<ClothingComponent>(entity, out var clothing))
             {
-                _handsSystem.TryPickup(ev.Mob, entity);
-                continue;
+				
+				if (
+					_inventorySystem.TryGetSlotEntity(ev.Mob, BackpackSlotId, out var backEntity_) &&
+					_storageSystem.CanInsert(backEntity_.Value, entity, out _)
+					)
+				{
+					_storageSystem.Insert(backEntity_.Value, entity);
+				} 
+				else
+				{
+					_handsSystem.TryPickup(ev.Mob, entity);
+				}
+				continue;
             }
 
             // Automatically search empty slot for clothes to equip
@@ -82,8 +93,8 @@ public sealed class LoadoutSystem : EntitySystem
 
             if (isEquipped || firstSlotName == null)
                 continue;
-
-            // Force equip to first valid clothes slot
+			
+			// Force equip to first valid clothes slot
             // Get occupied entity -> Insert to backpack -> Equip loadout entity
             if (_inventorySystem.TryGetSlotEntity(ev.Mob, firstSlotName, out var slotEntity) &&
                 _inventorySystem.TryGetSlotEntity(ev.Mob, BackpackSlotId, out var backEntity) &&

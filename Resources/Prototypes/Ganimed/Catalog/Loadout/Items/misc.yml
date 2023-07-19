@@ -2,76 +2,89 @@
   id: LoadoutItemsCigarGold
   category: loadout-category-items
   cost: 3
+  isItem: true
   prototype: CigarGold
 
 - type: loadout
   id: LoadoutItemLighter
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: Lighter
 
 - type: loadout
   id: LoadoutItemCheapLighter
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: CheapLighter
 
 - type: loadout
   id: LoadoutItemsTorch
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: Torch
 
 - type: loadout
   id: LoadoutItemsTrashBag
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: TrashBag
 
 - type: loadout
   id: LoadoutItemsVape
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: Vape
 
 - type: loadout
   id: LoadoutItemsGohei
   category: loadout-category-items
   cost: 2
+  isItem: true
   prototype: Gohei
 
 - type: loadout
   id: LoadoutItemsBookBase
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: BookBase
 
 - type: loadout
   id: LoadoutItemsFlare
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: Flare
 
 - type: loadout
   id: LoadoutItemsPowerCellSmall
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: PowerCellSmall
 
 - type: loadout
   id: LoadoutItemsWhiteCane
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: WhiteCane
 
 - type: loadout
   id: LoadoutItemsBookNarsieLegend
   category: loadout-category-items
   cost: 2
+  isItem: true
   prototype: BookNarsieLegend
 
 - type: loadout
   id: LoadoutItemsSyringe
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: Syringe

@@ -2,36 +2,42 @@
   id: LoadoutItemsPlantBGoneSpray
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: PlantBGoneSpray
 
 - type: loadout
   id: LoadoutItemsNitrogenTankFilled
   category: loadout-category-items
   cost: 3
+  isItem: true
   prototype: NitrogenTankFilled
 
 - type: loadout
   id: LoadoutItemsOxygenTankFilled
   category: loadout-category-items
   cost: 3
+  isItem: true
   prototype: OxygenTankFilled
 
 - type: loadout
   id: LoadoutItemsDrinkFlaskBar
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: DrinkFlaskBar
 
 - type: loadout
   id: LoadoutItemsBible
   category: loadout-category-items
   cost: 4
+  isItem: true
   prototype: Bible
 
 - type: loadout
   id: LoadoutItemsBola
   category: loadout-category-items
   cost: 1
+  isItem: true
   whitelistJobs:
     - Warden
     - BlueShield
@@ -45,24 +51,28 @@
   id: LoadoutItemsLargeBeaker
   category: loadout-category-items
   cost: 2
+  isItem: true
   prototype: LargeBeaker
 
 - type: loadout
   id: LoadoutItemsJug
   category: loadout-category-items
   cost: 2
+  isItem: true
   prototype: Jug
 
 - type: loadout
   id: LoadoutItemsDrinkVacuumFlask
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: DrinkVacuumFlask
 
 - type: loadout
   id: LoadoutItemsDrinkShaker
   category: loadout-category-items
   cost: 2
+  isItem: true
   whitelistJobs:
     - Bartender
     - ServiceWorker
@@ -72,6 +82,7 @@
   id: LoadoutItemsHandcuffs
   category: loadout-category-items
   cost: 1
+  isItem: true
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -85,12 +96,14 @@
   id: LoadoutItemsFireExtinguisher
   category: loadout-category-items
   cost: 3
+  isItem: true
   prototype: FireExtinguisher
 
 - type: loadout
   id: LoadoutItemsRiotBulletShield
   category: loadout-category-items
   cost: 4
+  isItem: true
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -104,6 +117,7 @@
   id: LoadoutItemsRiotLaserShield
   category: loadout-category-items
   cost: 4
+  isItem: true
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -117,6 +131,7 @@
   id: LoadoutItemsRiotShield
   category: loadout-category-items
   cost: 4
+  isItem: true
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer

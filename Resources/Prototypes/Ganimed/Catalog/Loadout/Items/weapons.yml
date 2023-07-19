@@ -2,6 +2,7 @@
   id: LoadoutItemsWeaponHKPhalanx
   category: loadout-category-items
   cost: 4
+  isItem: true
   whitelistJobs:
     - BlueShield
     - HeadOfSecurity
@@ -12,6 +13,7 @@
   id: LoadoutItemsWeaponDisablerPractice
   category: loadout-category-items
   cost: 1
+  isItem: true
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -27,6 +29,7 @@
   id: LoadoutItemsWeaponDisabler
   category: loadout-category-items
   cost: 3
+  isItem: true
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -42,6 +45,7 @@
   id: KitchenKnife
   category: loadout-category-items
   cost: 2
+  isItem: true
   whitelistJobs:
     - Chef
     - ServiceWorker
@@ -51,6 +55,7 @@
   id: LoadoutItemsHydroponicsToolScythe
   category: loadout-category-items
   cost: 3
+  isItem: true
   whitelistJobs:
     - Botanist
   prototype: HydroponicsToolScythe
@@ -59,6 +64,7 @@
   id: LoadoutItemsSpear
   category: loadout-category-items
   cost: 4
+  isItem: true
   whitelistJobs:
     - HeadOfSecurity
     - Captain
@@ -74,6 +80,7 @@
   id: LoadoutItemsKatana
   category: loadout-category-items
   cost: 3
+  isItem: true
   whitelistJobs:
     - HeadOfSecurity
     - Captain
@@ -83,6 +90,7 @@
   id: LoadoutItemsWeaponCrusherDagger
   category: loadout-category-items
   cost: 3
+  isItem: true
   whitelistJobs:
     - SalvageSpecialist
     - Quartermaster
@@ -92,6 +100,7 @@
   id: LoadoutItemsWeaponPickaxe
   category: loadout-category-items
   cost: 2
+  isItem: true
   whitelistJobs:
     - SalvageSpecialist
     - Quartermaster
@@ -102,6 +111,7 @@
   id: LoadoutItemsClaymore
   category: loadout-category-items
   cost: 6
+  isItem: true
   whitelistJobs:
     - HeadOfSecurity
     - Captain
@@ -112,6 +122,7 @@
   id: LoadoutItemsWeaponShotgunDoubleBarreledRubber
   category: loadout-category-items
   cost: 5
+  isItem: true
   whitelistJobs:
     - Captain
     - Detective
@@ -124,6 +135,7 @@
   id: LoadoutItemsSawElectric
   category: loadout-category-items
   cost: 4
+  isItem: true
   whitelistJobs:
     - ResearchAssistant
     - Scientist
@@ -140,6 +152,7 @@
   id: LoadoutItemsDrill
   category: loadout-category-items
   cost: 3
+  isItem: true
   whitelistJobs:
     - ResearchAssistant
     - Scientist
@@ -155,12 +168,14 @@
   id: LoadoutItemsWeaponWaterPistol
   category: loadout-category-items
   cost: 2
+  isItem: true
   prototype: WeaponWaterPistol
 
 - type: loadout
   id: LoadoutItemsFlash
   category: loadout-category-items
   cost: 2
+  isItem: true
   whitelistJobs:
     - Warden
     - BlueShield
@@ -181,6 +196,7 @@
   id: LoadoutItemsCombatKnife
   category: loadout-category-items
   cost: 5
+  isItem: true
   whitelistJobs:
     - Warden
     - BlueShield
@@ -195,12 +211,14 @@
   id: LoadoutItemsBaseBallBat
   category: loadout-category-items
   cost: 4
+  isItem: true
   prototype: BaseBallBat
 
 - type: loadout
   id: LoadoutItemsWeaponRevolverDeckard
   category: loadout-category-items
   cost: 4
+  isItem: true
   whitelistJobs:
     - Captain
   prototype: WeaponRevolverDeckard
@@ -209,6 +227,7 @@
   id: LoadoutItemsWeaponRevolverInspector
   category: loadout-category-items
   cost: 3
+  isItem: true
   whitelistJobs:
     - HeadOfSecurity
     - Detective
@@ -218,6 +237,7 @@
   id: LoadoutItemsWeaponPistolCHIMP
   category: loadout-category-items
   cost: 5
+  isItem: true
   whitelistJobs:
     - ResearchDirector
     - Scientist
@@ -228,6 +248,7 @@
   id: LoadoutItemsWeaponPistolMk58
   category: loadout-category-items
   cost: 6
+  isItem: true
   whitelistJobs:
     - SecurityOfficer
     - SecurityCadet
@@ -241,6 +262,7 @@
   id: LoadoutItemsWeaponFlareGun
   category: loadout-category-items
   cost: 3
+  isItem: true
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -261,6 +283,7 @@
   id: LoadoutItemsMachete
   category: loadout-category-items
   cost: 5
+  isItem: true
   whitelistJobs:
     - Captain
     - SalvageSpecialist
@@ -271,6 +294,7 @@
   id: LoadoutItemsStunbaton
   category: loadout-category-items
   cost: 3
+  isItem: true
   whitelistJobs:
     - Warden
     - BlueShield

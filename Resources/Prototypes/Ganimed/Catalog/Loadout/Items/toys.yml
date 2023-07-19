@@ -2,84 +2,98 @@
   id: LoadoutItemPersonalAI
   category: loadout-category-items
   cost: 3
+  isItem: true
   prototype: PersonalAI
 
 - type: loadout
   id: LoadoutItemsSkub
   category: loadout-category-items
   cost: 5
+  isItem: true
   prototype: Skub
 
 - type: loadout
   id: LoadoutItemsPlushieSharkBlue
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: PlushieSharkBlue
 
 - type: loadout
   id: LoadoutItemsPlushieSharkPink
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: PlushieSharkPink
 
 - type: loadout
   id: LoadoutItemsPlushieSharkGrey
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: PlushieSharkGrey
 
 - type: loadout
   id: LoadoutItemsToyIan
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: ToyIan
 
 - type: loadout
   id: LoadoutItemsRevolverCapGun
   category: loadout-category-items
   cost: 2
+  isItem: true
   prototype: RevolverCapGun
 
 - type: loadout
   id: LoadoutItemsBackgammonBoard
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: BackgammonBoard
 
 - type: loadout
   id: LoadoutItemsParchisBoard
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: ParchisBoard
 
 - type: loadout
   id: LoadoutItemsBasketball
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: Basketball
 
 - type: loadout
   id: LoadoutItemsRGBStaff
   category: loadout-category-items
   cost: 4
+  isItem: true
   prototype: RGBStaff
 
 - type: loadout
   id: LoadoutItemsPlasticBanana
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: PlasticBanana
 
 - type: loadout
   id: LoadoutItemsPlushieHampter
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: PlushieHampter
 
 - type: loadout
   id: LoadoutItemsToyHammer
   category: loadout-category-items
   cost: 1
+  isItem: true
   whitelistJobs:
     - Clown
     - Mime
@@ -89,6 +103,7 @@
   id: LoadoutItemsVehicleUnicycleFolded
   category: loadout-category-items
   cost: 3
+  isItem: true
   whitelistJobs:
     - Clown
     - Mime
@@ -98,16 +113,19 @@
   id: LoadoutItemsWhoopieCushion
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: WhoopieCushion
 
 - type: loadout
   id: LoadoutItemsCrayonBox
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: CrayonBox
 
 - type: loadout
   id: LoadoutItemsHeadSkeleton
   category: loadout-category-items
   cost: 3
+  isItem: true
   prototype: HeadSkeleton

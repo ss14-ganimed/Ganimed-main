@@ -2,18 +2,21 @@
   id: LoadoutItemsGeigerCounter
   category: loadout-category-items
   cost: 1
+  isItem: true
   prototype: GeigerCounter
 
 - type: loadout
   id: LoadoutItemsAppraisalTool
   category: loadout-category-items
   cost: 3
+  isItem: true
   prototype: AppraisalTool
 
 - type: loadout
   id: LoadoutItemsMultitool
   category: loadout-category-items
   cost: 1
+  isItem: true
   whitelistJobs:
     - ChiefEngineer
     - TechnicalAssistant
@@ -25,12 +28,14 @@
   id: LoadoutItemsFlashlightLantern
   category: loadout-category-items
   cost: 2
+  isItem: true
   prototype: FlashlightLantern
 
 - type: loadout
   id: LoadoutItemsFlashlightSeclite
   category: loadout-category-items
   cost: 3
+  isItem: true
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer
@@ -46,12 +51,14 @@
   id: LoadoutItemsMopItem
   category: loadout-category-items
   cost: 3
+  isItem: true
   prototype: MopItem
 
 - type: loadout
   id: LoadoutItemsForensicScanner
   category: loadout-category-items
   cost: 3
+  isItem: true
   whitelistJobs:
     - Detective
     - HeadOfSecurity
@@ -63,6 +70,7 @@
   id: LoadoutItemsRCDAmmo
   category: loadout-category-items
   cost: 3
+  isItem: true
   whitelistJobs:
     - ChiefEngineer
     - AtmosphericTechnician
@@ -72,6 +80,7 @@
   id: LoadoutItemsGasAnalyzer
   category: loadout-category-items
   cost: 2
+  isItem: true
   whitelistJobs:
     - Scientist
     - ResearchAssistant
@@ -86,12 +95,14 @@
   id: LoadoutItemsHandheldGPSBasic
   category: loadout-category-items
   cost: 2
+  isItem: true
   prototype: HandheldGPSBasic
 
 - type: loadout
   id: LoadoutItemsHolofanProjector
   category: loadout-category-items
   cost: 2
+  isItem: true
   whitelistJobs:
     - AtmosphericTechnician
     - ChiefEngineer
@@ -101,4 +112,5 @@
   id: LoadoutItemsCrowbarRed
   category: loadout-category-items
   cost: 2
+  isItem: true
   prototype: CrowbarRed
