@@ -77,8 +77,8 @@
 - type: entity
   parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelHoS
-  name: head of security's satchel
-  description: Stylish, leather black satchel
+  name: black security satchel
+  description: Stylish black leather satchel.
   suffix: Sponsor
   components:
     - type: Sprite
@@ -88,7 +88,7 @@
   parent: ClothingBeltStorageBase
   id: ClothingBeltHoS
   name: leather security belt
-  description: Stylish, leather black belt
+  description: Stylish black leather belt.
   suffix: Sponsor
   components:
     - type: Sprite
@@ -124,7 +124,7 @@
   parent: ClothingHandsBase
   id: ClothingHandsGlovesLeatherHoS
   name: leather gloves
-  description: Stylish, black leather gloves
+  description: Stylish black leather gloves.
   suffix: Sponsor
   components:
     - type: Sprite

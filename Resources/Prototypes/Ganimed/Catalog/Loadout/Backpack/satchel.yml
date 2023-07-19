@@ -64,10 +64,16 @@
 - type: loadout
   id: LoadoutBackpackClothingBackpackSatchelHoS
   category: loadout-category-backpack
-  cost: 3
+  cost: 2
   exclusive: true
   whitelistJobs:
     - HeadOfSecurity
+    - Warden
+    - BlueShield
+    - SecurityOfficer
+    - SecurityCadet
+    - Detective
+    - Captain
   prototype: ClothingBackpackSatchelHoS
 
 - type: loadout
