@@ -1,16 +1,5 @@
 - type: entity
   parent: ClothingNeckBase
-  id: ClothingNeckScarfСamo
-  name: camouflage scarf
-  description: A stylish camouflage scarf.
-  components:
-  - type: Sprite
-    sprite: Ganimed/Clothing/Neck/Scarfs/camouflage.rsi
-  - type: Clothing
-    sprite: Ganimed/Clothing/Neck/Scarfs/camouflage.rsi
-
-- type: entity
-  parent: ClothingNeckBase
   id: ClothingNeckScarfStripedAzure
   name: striped azure scarf
   description: A stylish striped azure scarf.

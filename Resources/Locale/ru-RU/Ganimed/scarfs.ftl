@@ -1,5 +1,3 @@
-ent-ClothingNeckScarfCamo = камуфляжный шарф
-    .desc = Полосатый шарф в камуфляжной расцветке.
 ent-ClothingNeckScarfStripedAzure = лазурный шарф
     .desc = Красивый лазурный шарф.
 ent-ClothingNeckScarfStripedLime = лаймовый шарф
