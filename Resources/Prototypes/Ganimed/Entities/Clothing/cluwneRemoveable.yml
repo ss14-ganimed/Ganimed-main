@@ -1,0 +1,49 @@
+- type: entity
+  parent: ClothingShoesClown
+  id: ClothingShoesCluwneRemoveable
+  name: cluwne shoes
+  description: "Cursed pair of cluwne shoes."
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Specific/cluwne.rsi
+  - type: Clothing
+    sprite: Clothing/Shoes/Specific/cluwne.rsi
+
+- type: entity
+  parent: ClothingMaskClown
+  id: ClothingMaskCluwneRemoveable
+  name: cluwne face and hair
+  description: Cursed cluwne face and hair.
+  components:
+  - type: Sprite
+    sprite: Clothing/Mask/cluwne.rsi
+  - type: Clothing
+    sprite: Clothing/Mask/cluwne.rsi
+  - type: AddAccentClothing
+    accent: StutteringAccent
+
+- type: entity
+  parent: ClothingHandsGlovesColorWhite
+  id: ClothingHandsGlovesCluwneRemoveable
+  name: cluwne hands
+  description:  A cursed pair of cluwne hands.
+
+- type: entity
+  parent: ClothingUniformJumpsuitClown
+  id: ClothingUniformJumpsuitCluwneRemoveable
+  name: cluwne suit
+  description: Cursed cluwne suit.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/cluwne.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/cluwne.rsi
+
+- type: entity
+  parent: ClothingBackpackClown
+  id: ClothingBackpackCluwneRemoveable
+  name: jiggles von jonkerton
+  description: It's a backpack made by Jonk! Co.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Backpacks/cluwne.rsi

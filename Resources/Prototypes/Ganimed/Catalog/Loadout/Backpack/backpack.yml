@@ -1,11 +1,11 @@
 - type: loadout
-  id: LoadoutBackpackClothingBackpackCluwne
+  id: LoadoutBackpackClothingBackpackCluwneRemoveable
   category: loadout-category-backpack
   cost: 3
   exclusive: true
   whitelistJobs:
     - Clown
-  prototype: ClothingBackpackCluwne
+  prototype: ClothingBackpackCluwneRemoveable
 
 - type: loadout
   id: LoadoutBackpackClothingBackpackWaterTank

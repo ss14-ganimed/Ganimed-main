@@ -12,3 +12,7 @@ ent-VehicleSyndicateSegway = сегвей синдиката
     .desc = Будьте врагом корпорации на стиле.
 ent-VehicleSkeletonMotorcycle = скелетонский мотоцикл
     .desc = Плохой до мозга костей.
+ent-VehicleUnicycle = уницикл
+	.desc = Одноколесный!
+ent-VehicleUnicycleFolded = уницикл
+	.desc = Одноколесный!

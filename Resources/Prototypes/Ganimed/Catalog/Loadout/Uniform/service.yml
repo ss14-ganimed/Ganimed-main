@@ -111,13 +111,13 @@
   prototype: ClothingUniformJumpsuitClown
 
 - type: loadout
-  id: LoadoutUniformClothingUniformJumpsuitCluwne
+  id: LoadoutUniformClothingUniformJumpsuitCluwneRemoveable
   category: loadout-category-uniform
   cost: 5
   exclusive: true
   whitelistJobs:
     - Clown
-  prototype: ClothingUniformJumpsuitCluwne
+  prototype: ClothingUniformJumpsuitCluwneRemoveable
 
 - type: loadout
   id: LoadoutUniformClothingUniformJumpsuitMime

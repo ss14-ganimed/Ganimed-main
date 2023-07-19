@@ -162,7 +162,7 @@
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesGlassesBlueShield
-  name: blue shield sunglasses
+  name: blue sec sunglasses
   description: Strangely ancient technology used to help provide rudimentary eye cover. Enhanced shielding blocks many flashes.
   components:
   - type: Sprite

@@ -91,13 +91,13 @@
   prototype: ClothingShoesClown
 
 - type: loadout
-  id: LoadoutShoesClothingShoesCluwne
+  id: LoadoutShoesClothingShoesCluwneRemoveable
   category: loadout-category-shoes
   cost: 2
   exclusive: true
   whitelistJobs:
     - Clown
-  prototype: ClothingShoesCluwne
+  prototype: ClothingShoesCluwneRemoveable
 
 - type: loadout
   id: LoadoutShoesClothingShoesBootsMag

@@ -1,26 +1,26 @@
 - type: loadout
-  id: LoadoutItemsCigCartonBlue
+  id: LoadoutItemsCigPackBlue
   category: loadout-category-items
   cost: 2
-  prototype: CigCartonBlue
+  prototype: CigPackBlue
 
 - type: loadout
-  id: LoadoutItemsCigCartonBlack
+  id: LoadoutItemsCigPackBlack
   category: loadout-category-items
   cost: 2
-  prototype: CigCartonBlack
+  prototype: CigPackBlack
 
 - type: loadout
-  id: LoadoutItemsCigCartonRed
+  id: LoadoutItemsCigPackRed
   category: loadout-category-items
   cost: 2
-  prototype: CigCartonRed
+  prototype: CigPackRed
 
 - type: loadout
-  id: LoadoutItemsCigCartonGreen
+  id: LoadoutItemsCigPackGreen
   category: loadout-category-items
   cost: 2
-  prototype: CigCartonGreen
+  prototype: CigPackGreen
 
 - type: loadout
   id: LoadoutItemsMedkitCombatFilled
@@ -78,7 +78,7 @@
 - type: loadout
   id: LoadoutItemsBoxHandcuff
   category: loadout-category-items
-  cost: 2
+  cost: 3
   whitelistJobs:
     - SecurityCadet
     - SecurityOfficer

@@ -48,19 +48,21 @@
     - Quartermaster
   prototype: ClothingBeltUtilityFilled
 
-- type: loadout
-  id: LoadoutBeltMedicalFilled
-  category: loadout-category-belt
-  cost: 2
-  exclusive: true
-  whitelistJobs:
-    - MedicalIntern
-    - MedicalDoctor
-    - Chemist
-    - Paramedic
-    - ChiefMedicalOfficer
-    - Psychologist
-  prototype: ClothingBeltMedicalFilled
+#- type: loadout
+#  id: LoadoutBeltMedicalFilled
+#  category: loadout-category-belt
+#  cost: 2
+#  exclusive: true
+#  whitelistJobs:
+#    - MedicalIntern
+#    - MedicalDoctor
+#    - Chemist
+#    - Paramedic
+#    - ChiefMedicalOfficer
+#    - Psychologist
+#  prototype: ClothingBeltMedicalFilled
+#
+# До тех пор, пока поясы медика и парамедика не отличаются внешне, два пояса только запутают игроков.
 
 - type: loadout
   id: LoadoutBeltParamedicFilled

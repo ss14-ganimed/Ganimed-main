@@ -56,13 +56,13 @@
   prototype: ClothingHandsGlovesNitrile
 
 - type: loadout
-  id: LoadoutHandsClothingHandsGlovesCluwne
+  id: LoadoutHandsClothingHandsGlovesCluwneRemoveable
   category: loadout-category-hands
   cost: 1
   exclusive: true
   whitelistJobs:
     - Clown
-  prototype: ClothingHandsGlovesCluwne
+  prototype: ClothingHandsGlovesCluwneRemoveable
 
 - type: loadout
   id: LoadoutHandsClothingHandsGlovesLeatherUSSPBlack

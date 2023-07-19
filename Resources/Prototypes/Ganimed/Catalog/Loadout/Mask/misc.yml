@@ -6,13 +6,13 @@
   prototype: ClothingMaskSadMime
 
 - type: loadout
-  id: LoadoutMaskClothingMaskCluwne
+  id: LoadoutMaskClothingMaskCluwneRemoveable
   category: loadout-category-mask
   cost: 3
   exclusive: true
   whitelistJobs:
     - Clown
-  prototype: ClothingMaskCluwne
+  prototype: ClothingMaskCluwneRemoveable
 
 - type: loadout
   id: LoadoutMaskClothingMaskRaven

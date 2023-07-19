@@ -1,0 +1,10 @@
+ent-ClothingUniformJumpsuitCluwneRemoveable = костюм клувеня
+    .desc = Проклятый костюм клувеня.
+ent-ClothingShoesCluwneRemoveable = клувеньские туфли
+    .desc = Проклятая пара клувеньских туфель.
+ent-ClothingMaskCluwneRemoveable = лицо и волосы клувеня
+    .desc = Проклятые лицо и волосы клувеня.
+ent-ClothingHandsGlovesCluwneRemoveable = руки клувеня
+    .desc = Проклятая пара рук клувеня.
+ent-ClothingBackpackCluwneRemoveable = проклятый хихишкин фон хонкертон
+    .desc = Проклятый рюкзак хихишкин фон хонкертон.
