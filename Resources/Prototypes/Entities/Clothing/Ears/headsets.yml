@@ -66,6 +66,7 @@
   - type: ContainerFill
     containers:
       key_slots:
+      - EncryptionKeyCommand
       - EncryptionKeyCargo
       - EncryptionKeyCommon
 
