@@ -202,6 +202,7 @@
       - id: MaterialBiomass
         amount: 3
       - id: BoxEncryptionKeyMedical
+      - id: StandartNanitesInjector
 
 - type: entity
   id: LockerChiefMedicalOfficerFilled
@@ -230,6 +231,7 @@
       - id: MaterialBiomass
         amount: 3
       - id: BoxEncryptionKeyMedical
+      - id: StandartNanitesInjector
 
 - type: entity
   id: LockerResearchDirectorFilledHardsuit

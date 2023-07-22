@@ -161,7 +161,7 @@
     ears: ClothingHeadsetERT
     belt: ClothingBeltMedicalFilled
     pocket1: HandheldHealthAnalyzer
-    pocket2: Flare
+    pocket2: SpecialNanitesInjector
 
 - type: startingGear
   id: ERTMedicalGearEVA
@@ -178,7 +178,7 @@
     ears: ClothingHeadsetERT
     belt: ClothingBeltMedicalFilled
     pocket1: HandheldHealthAnalyzer
-    pocket2: Flare
+    pocket2: SpecialNanitesInjector
 
 # Janitor
 - type: job
