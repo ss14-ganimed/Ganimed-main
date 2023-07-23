@@ -1,0 +1,11 @@
+job-name-instructor = инструктор СБ
+job-description-instructor = Обучайте кадетов и помогайте только что ставшим на должность офицерам. Ставьте двойки в дневник кадетам!
+ent-InstructorPDA = КПК инструктора
+    .desc = Этот КПК специально создан что-бы ставить кадетам двойки!
+ent-InstructorIDCard = ID карта инструктора
+    .desc = ID карта, специально для Джона Уика, а вернее для его учителя!
+ent-LockerInstructor = шкаф инструктора
+    .desc = Шкафчик самого умного офицера
+ent-LockerInstructorFilled = шкаф инструктора
+    .desc = Шкафчик самого умного офицера
+ent-SpawnPointSecurityInstructor = инструктор

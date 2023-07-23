@@ -1,0 +1,40 @@
+- type: job
+  id: Instructor
+  name: job-name-instructor
+  description: job-description-instructor
+  playTimeTracker: JobInstructor
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 25200 # Ganimed-RoleTime (420m)
+  startingGear: InstructorGear
+  icon: "SecurityInstructor"
+  requireAdminNotify: true
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Security
+  - Armory
+  - Maintenance
+  - Service
+  - Brig
+  - External
+  - Instructor
+
+- type: startingGear
+  id: InstructorGear
+  equipment:
+    head: ClothingHeadHatBeret
+    neck: ClothingNeckTieDet
+    jumpsuit: ClothingUniformJumpsuitSecBlue
+    back: ClothingBackpackSecurityFilled
+    shoes: ClothingShoesBootsJackSec
+    eyes: ClothingEyesGlassesSecurity
+    outerClothing: ClothingOuterVestWeb
+    id: InstructorPDA
+    ears: ClothingHeadsetAltSecurity
+    belt: ClothingBeltSecurityFilled
+    gloves: ClothingHandsGlovesBlack
+  innerclothingskirt: ClothingUniformJumpsuitSecBlue
+  satchel: ClothingBackpackSatchelSecurityFilled
+  duffelbag: ClothingBackpackDuffelSecurityFilled

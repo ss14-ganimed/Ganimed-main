@@ -73,6 +73,27 @@
         prob: 0.2
 
 - type: entity
+  id: LockerInstructorFilled
+  suffix: Filled
+  parent: LockerInstructor
+  components:
+  - type: StorageFill
+    contents:
+      - id: FlashlightSeclite
+      - id: ClothingUniformJumpsuitSecBlue
+      - id: ClothingHeadHelmetHelmet
+      - id: ClothingOuterVestWeb
+      - id: ClothingBeltSecurityFilled
+      - id: Flash
+      - id: ClothingEyesGlassesSecurity
+      - id: ClothingHeadsetAltSecurity
+      - id: ClothingHandsGlovesColorBlack
+      - id: ClothingShoesBootsJackSec
+      - id: ClothingOuterCoatSecurityOvercoat
+      - id: ClothingNeckTieDet
+      - id: ClothingHeadHatBeret
+
+- type: entity
   id: LockerBrigmedicFilled
   suffix: Brigmedic, Filled
   parent: LockerBrigmedic

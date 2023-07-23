@@ -301,6 +301,21 @@
   - type: AccessReader
     access: [["Armory"]]
 
+# Instructor
+- type: entity
+  id: LockerInstructor
+  parent: LockerBaseSecure
+  name:  Instructor's locker
+  description: The locker of the smartest officer
+  components:
+  - type: Appearance
+  - type: EntityStorageVisuals
+    stateBaseClosed: warden
+    stateDoorOpen: warden_open
+    stateDoorClosed: warden_door
+  - type: AccessReader
+    access: [["Instructor"]]
+
 # Brigmedic
 - type: entity
   id: LockerBrigmedic

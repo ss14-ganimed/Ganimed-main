@@ -80,6 +80,7 @@
   - SecurityOfficer
   - Detective
   - Warden
+  - Instructor
 
 - type: department
   id: Science

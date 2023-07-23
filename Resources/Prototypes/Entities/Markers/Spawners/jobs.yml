@@ -467,6 +467,18 @@
       - state: detective
 
 - type: entity
+  id: SpawnPointSecurityInstructor
+  parent: SpawnPointJobBase
+  name: instructor
+  components:
+  - type: SpawnPoint
+    job_id: Instructor
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security_officer
+
+- type: entity
   id: SpawnPointBrigmedic
   parent: SpawnPointJobBase
   name: brigmedic
