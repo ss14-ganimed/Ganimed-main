@@ -2,7 +2,7 @@
   parent: BasePlushie
   id: PlushieChiefMedicalOfficer
   name: chief medical officer plushie
-  description: A cute toy that resembles a worker in NanoTrasen-issued chief medical officer suit. Unfortunately, won\'t organise your med workflow.
+  description: A cute toy that resembles a worker in NanoTrasen-issued chief medical officer suit. Unfortunately, won't organise your med workflow.
   components:
   - type: Sprite
     sprite: Ganimed/Objects/plushies.rsi
@@ -20,7 +20,7 @@
   parent: BasePlushie
   id: PlushieQuartermaster
   name: quartermaster plushie
-  description: A cute toy of a 100% real NanoTrasen worker in a full-body suit and a quartermaster outfit. Rest assured of it\'s loyalty to the company.
+  description: A cute toy of a 100% real NanoTrasen worker in a full-body suit and a quartermaster outfit. Rest assured of it's loyalty to the company.
   components:
   - type: Sprite
     sprite: Ganimed/Objects/plushies.rsi
@@ -40,11 +40,19 @@
   parent: BasePlushie
   id: PlushieCaptain
   name: NanoTrasen captain plushie
-  description: A plushie of a red-hair NanoTrasen worker. You can be sure it\'s a captain. A sense of terror is emanating from the plushie.
+  description: A plushie of a red-hair NanoTrasen worker. You can be sure it's a captain. A sense of terror is emanating from the plushie.
   components:
   - type: Sprite
     sprite: Ganimed/Objects/plushies.rsi
     state: mensk
+  - type: Extractable
+    grindableSolutionName: mensk
+  - type: SolutionContainerManager
+    solutions:
+      mensk:
+        reagents:
+          - ReagentId: SpaceDrugs
+            Quantity: 10
 
 - type: entity
   parent: BasePlushie
@@ -89,7 +97,7 @@
     grindableSolutionName: slime
   - type: SolutionContainerManager
     solutions:
-      cmo:
+      slime:
         reagents:
           - ReagentId: Slime
             Quantity: 10
@@ -106,11 +114,47 @@
   parent: BasePlushie
   id: PlushieLizardQM
   name: lizardperson quartermaster plushie
-  description: A modification to the NanoTrasen-issued lizardperson plushie. Looks like it is wearing a quartermaster uniform. Say \"No\" to power positions racism.
+  description: A modification to the NanoTrasen-issued lizardperson plushie. Looks like it is wearing a quartermaster uniform. Say *No* to power positions racism.
   components:
   - type: Sprite
     sprite: Ganimed/Objects/plushies.rsi
     state: graff
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieSalvageSpecialist1
+  name: salvage specialist plushie
+  description: A NanoTrasen-issued plushie of a stylish salvage specialist design. As if the job itself wasn't cool enough.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/plushies.rsi
+    state: suren_1
+
+- type: entity
+  parent: PlushieSalvageSpecialist1
+  id: PlushieSalvageSpecialist2 
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/plushies.rsi
+    state: suren_2
+
+- type: entity
+  parent: BasePlushie
+  id: PlushieChemist
+  name: chemist plushie
+  description: A cute toy in a chemist uniform. Looks like it's bothered by your mere presence, but is actually unable to do a thing.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/plushies.rsi
+    state: ocion
+  - type: Extractable
+    grindableSolutionName: chemist
+  - type: SolutionContainerManager
+    solutions:
+      chemist:
+        reagents:
+          - ReagentId: Stimulators
+            Quantity: 10
 
 - type: entity
   name: Ganimed Plushies Spawner
@@ -134,5 +178,8 @@
         - PlushieHeadOfSecurity
         - PlushieQuartermaster
         - PlushieChiefMedicalOfficer
+        - PlushieSalvageSpecialist1
+        - PlushieSalvageSpecialist2
+        - PlushieChemist
       chance: 1
       offset: 0.2

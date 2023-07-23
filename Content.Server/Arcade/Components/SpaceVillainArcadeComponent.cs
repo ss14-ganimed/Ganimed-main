@@ -44,7 +44,7 @@ namespace Content.Server.Arcade.Components
         private List<string> _possibleFirstEnemyNames = new List<string>(){
         /// Corvax-Localization-Start
             "Автоматический", "Фермер", "Лорд", "Профессор", "Кубинец", "Злой", "Грозный Король",
-            "Космический", "Лорд", "Могучий", "Герцог", "Генерал"
+            "Космический", "Лорд", "Могучий", "Герцог", "Генерал", "Красный", "Синий", "Голубой"
         /// Corvax-Localization-End
         };
         [ViewVariables(VVAccess.ReadWrite)]
@@ -53,7 +53,7 @@ namespace Content.Server.Arcade.Components
         {
         /// Corvax-Localization-Start
             "Мелоноид", "Мурдетрон", "Волшебник", "Руина", "Джефф", "Эктоплазма", "Крушелон", "Унахгоид",
-            "Вакоид", "Петеоид", "слизень", "Грифер", "ЕРПшер", "Человек Ящерица", "Единорог"
+            "Вакоид", "Петеоид", "слизень", "Грифер", "ЕРПшер", "Человек Ящерица", "Единорог", "Темпоралдаркнесс", "Шпион", "Хакер"
         /// Corvax-Localization-End
         };
         [ViewVariables(VVAccess.ReadWrite)]
@@ -66,7 +66,10 @@ namespace Content.Server.Arcade.Components
             "FoamCrossbow", "RevolverCapGun", "PlushieHampter", "PlushieLizard", "PlushieAtmosian", "PlushieSpaceLizard",
             "PlushieNuke", "PlushieCarp", "PlushieRatvar", "PlushieNar", "PlushieSnake", "Basketball", "Football",
             "PlushieRouny", "PlushieBee", "PlushieSlime", "BalloonCorgi", "ToySword", "CrayonBox", "BoxDonkSoftBox", "BoxCartridgeCap",
-            "HarmonicaInstrument", "OcarinaInstrument", "RecorderInstrument", "GunpetInstrument", "BirdToyInstrument", "PlushieXeno"
+            "HarmonicaInstrument", "OcarinaInstrument", "RecorderInstrument", "GunpetInstrument", "BirdToyInstrument", "PlushieXeno",
+			"PlushieLizardQM", "PlushieBartenderSlime2", "PlushieBartenderSlime1", "PlushieInternalAffairsAgent", "PlushieMedicalWorker",
+			"PlushieServiceWorker", "PlushieCaptain", "PlushieHeadOfSecurity", "PlushieQuartermaster", "PlushieChiefMedicalOfficer",
+			"PlushieSalvageSpecialist1", "PlushieSalvageSpecialist2", "PlushieChemist"
         };
 
         [DataField("rewardMinAmount")]
