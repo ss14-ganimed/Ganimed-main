@@ -601,6 +601,19 @@
     job: Detective
 
 - type: entity
+  parent: IDCardStandard
+  id: InstructorIDCard
+  name: instructor ID card
+  description: ID Card, definitely for Jonah Wicki, and most importantly for your teacher!
+  components:
+  - type: Sprite
+    layers:
+    - state: default
+    - state: idinstructor
+  - type: PresetIdCard
+    job: Instructor
+
+- type: entity
   parent: CentcomIDCard
   id: CBURNIDcard
   name: CBURN ID card

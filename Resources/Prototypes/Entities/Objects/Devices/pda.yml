@@ -661,7 +661,25 @@
         - Write
   - type: Icon
     state: pda-security
-    
+
+- type: entity
+  parent: BasePDA
+  id: InstructorPDA
+  name: instructor PDA
+  description: This PDA is specially created to give cadets deuces!.
+  components:
+  - type: PDA
+    id: InstructorIDCard
+    state: pda-security
+    penSlot:
+      startingItem: SecPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: Icon
+    state: pda-security
+
 - type: entity
   parent: BasePDA
   id: BlueShieldPDA

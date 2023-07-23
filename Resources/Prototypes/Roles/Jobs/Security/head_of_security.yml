@@ -26,6 +26,7 @@
   - Service
   - External
   - Detective
+  - Instructor
 
 - type: startingGear
   id: HoSGear

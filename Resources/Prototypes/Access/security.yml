@@ -18,6 +18,10 @@
   id: Detective
   name: id-card-access-level-detective
 
+- type: accessLevel
+  id: Instructor
+  name: id-card-access-level-instructor
+
 - type: accessGroup
   id: Security
   tags:
@@ -26,6 +30,7 @@
   - Armory
   - Brig
   - Detective
+  - Instructor
 
 - type: accessGroup
   id: Armory
