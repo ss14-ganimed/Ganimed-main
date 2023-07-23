@@ -13,8 +13,8 @@
       - id: ClothingBeltSecurityFilled
       - id: Flash
       - id: ClothingEyesGlassesSecurity
+      - id: ClothingHandsGlovesKravMaga
       - id: ClothingHeadsetAltSecurity
-      - id: ClothingHandsGlovesCombat
       - id: ClothingShoesBootsJack
       - id: ClothingOuterCoatWarden
       - id: ClothingOuterWinterWarden
@@ -39,8 +39,8 @@
       - id: ClothingBeltSecurityFilled
       - id: Flash
       - id: ClothingEyesGlassesSecurity
+      - id: ClothingHandsGlovesKravMaga
       - id: ClothingHeadsetAltSecurity
-      - id: ClothingHandsGlovesCombat
       - id: ClothingShoesBootsJack
       - id: ClothingOuterCoatWarden
       - id: ClothingOuterWinterWarden
