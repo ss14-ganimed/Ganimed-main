@@ -14,7 +14,7 @@
       - id: Flash
       - id: ClothingEyesGlassesSecurity
       - id: ClothingHandsGlovesKravMaga
-      - id: ClothingHandsGlovesCombat
+      - id: ClothingHeadsetAltSecurity
       - id: ClothingShoesBootsJack
       - id: ClothingOuterCoatWarden
       - id: ClothingOuterWinterWarden
@@ -40,7 +40,7 @@
       - id: Flash
       - id: ClothingEyesGlassesSecurity
       - id: ClothingHandsGlovesKravMaga
-      - id: ClothingHandsGlovesCombat
+      - id: ClothingHeadsetAltSecurity
       - id: ClothingShoesBootsJack
       - id: ClothingOuterCoatWarden
       - id: ClothingOuterWinterWarden
