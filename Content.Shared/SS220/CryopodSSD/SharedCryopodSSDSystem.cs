@@ -1,4 +1,6 @@
-﻿using Content.Shared.Actions;
+﻿// © SS220, An EULA/CLA with a hosting restriction, full text: https://raw.githubusercontent.com/SerbiaStrong-220/space-station-14/master/CLA.txt
+
+using Content.Shared.Actions;
 using Content.Shared.Actions.ActionTypes;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Body.Components;
@@ -52,7 +54,7 @@ namespace Content.Shared.SS220.CryopodSSD
                 return false;
 
             var xform = Transform(target);
-            cryopodSsdComponent.BodyContainer.Insert(target, transform: xform);
+            cryopodSsdComponent.BodyContainer.Insert(target, transform: xform, force: true);
             
             if (_prototypeManager.TryIndex<InstantActionPrototype>("CryopodSSDLeave", out var leaveAction))
             {
@@ -62,7 +64,7 @@ namespace Content.Shared.SS220.CryopodSSD
 
             _standingStateSystem.Stand(target, force: true);
 
-            cryopodSsdComponent.CurrentEntityLyingInCryopodTime = _gameTiming.CurTime;
+            cryopodSsdComponent.EntityLiedInCryopodTime = _gameTiming.CurTime;
 
             UpdateAppearance(uid, cryopodSsdComponent);
             return true;
@@ -116,7 +118,7 @@ namespace Content.Shared.SS220.CryopodSSD
             if (args.Handled)
                 return;
 
-            args.CanDrop = HasComp<BodyComponent>(args.Dragged);
+            args.CanDrop = HasComp<BodyComponent>(args.Dragged) && _mobStateSystem.IsAlive(args.Dragged);
             args.Handled = true;
         }
 
@@ -165,6 +167,17 @@ namespace Content.Shared.SS220.CryopodSSD
         [Serializable, NetSerializable]
         public sealed class CryopodSSDDragFinished : SimpleDoAfterEvent
         {
+        }
+        
+        [Serializable, NetSerializable]
+        public sealed class TeleportToCryoFinished : SimpleDoAfterEvent
+        {
+            public EntityUid PortalId { get; private set; }
+
+            public TeleportToCryoFinished(EntityUid portalId)
+            {
+                PortalId = portalId;
+            }
         }
     }
 }

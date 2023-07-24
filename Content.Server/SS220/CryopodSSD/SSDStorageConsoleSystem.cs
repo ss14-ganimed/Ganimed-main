@@ -1,4 +1,7 @@
-﻿using System.Linq;
+// © SS220, An EULA/CLA with a hosting restriction, full text: https://raw.githubusercontent.com/SerbiaStrong-220/space-station-14/master/CLA.txt
+
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
 using System.Globalization;
 using Content.Server.Chat.Systems;
 using Content.Server.Forensics;
@@ -41,12 +44,14 @@ public sealed class SSDStorageConsoleSystem : EntitySystem
     [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
     [Dependency] private readonly IObjectivesManager _objectivesManager = default!;
     [Dependency] private readonly MindTrackerSystem _mindTrackerSystem = default!;
+    [Dependency] private readonly StationJobsSystem _stationJobsSystem = default!;
     [Dependency] private readonly UserInterfaceSystem _userInterface = default!;
     [Dependency] private readonly EntityManager _entityManager = default!;
     [Dependency] private readonly StationSystem _stationSystem = default!;
     [Dependency] private readonly HandsSystem _handsSystem = default!;
     [Dependency] private readonly IGameTiming _gameTiming = default!;
     [Dependency] private readonly ChatSystem _chatSystem = default!;
+    [Dependency] private readonly MindSystem _mindSystem = default!;
     
     private ISawmill _sawmill = default!;
     
@@ -163,16 +168,21 @@ public sealed class SSDStorageConsoleSystem : EntitySystem
 
         if (station is not null)
         {
-            DeleteEntityRecord(entityToTransfer, station.Value, out var job);
-            
-            _chatSystem.DispatchStationAnnouncement(station.Value, 
-                Loc.GetString(
-                    "cryopodSSD-entered-cryo",
-                    ("character", MetaData(entityToTransfer).EntityName),
-                    ("job", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(job))),
-                Loc.GetString("cryopodSSD-sender"));
-            
-            component.StoredEntities.Add($"{MetaData(entityToTransfer).EntityName} - [{job}] - {_gameTiming.RealTime}");
+            if (DeleteEntityRecord(entityToTransfer, station.Value, out var deletedRecord))
+            {
+                _chatSystem.DispatchStationAnnouncement(station.Value,
+                    Loc.GetString(
+                        "cryopodSSD-entered-cryo",
+                        ("character", MetaData(entityToTransfer).EntityName),
+                        ("job", CultureInfo.CurrentCulture.TextInfo.ToTitleCase(deletedRecord.JobTitle))),
+                    Loc.GetString("cryopodSSD-sender"),
+                    playSound: false);
+
+                component.StoredEntities.Add(
+                    $"{MetaData(entityToTransfer).EntityName} - [{deletedRecord.JobTitle}] - {_gameTiming.RealTime}");
+
+                _stationJobsSystem.TryAdjustJobSlot(station.Value, deletedRecord.JobPrototype, 1);
+            }
         }
 
         UndressEntity(uid, component, entityToTransfer);
@@ -202,9 +212,9 @@ public sealed class SSDStorageConsoleSystem : EntitySystem
 
             foreach (var objective in objectiveToReplace)
             {
-                mind.TryRemoveObjective(objective);
+                _mindSystem.TryRemoveObjective(mind, objective);
                 var newObjective = _objectivesManager.GetRandomObjective(mind, "TraitorObjectiveGroups");
-                if (newObjective is null || !mind.TryAddObjective(newObjective))
+                if (newObjective is null || !_mindSystem.TryAddObjective(mind,newObjective))
                 {
                     _sawmill.Error($"{ToPrettyString(mind.OwnedEntity.Value)}'s target get in cryo, so he lost his objective and didn't get a new one");
                     continue;
@@ -298,20 +308,24 @@ public sealed class SSDStorageConsoleSystem : EntitySystem
     /// </summary>
     /// <param name="uid"></param>
     /// <param name="station"></param>
-    /// <param name="job"> returns job of entity </param>
-    private void DeleteEntityRecord(EntityUid uid, EntityUid station, out string job)
+    /// <param name="deletedRecord"> returns copy of deleted generalRecord </param>
+    /// <returns> True if we successfully deleted record of entity, otherwise returns false</returns>
+    private bool DeleteEntityRecord(EntityUid uid, EntityUid station,[NotNullWhen(true)] out GeneralStationRecord? deletedRecord)
     {
-        job = string.Empty;
         var stationRecord = FindEntityStationRecordKey(station, uid);
 
+        deletedRecord = null;
+        
         if (stationRecord is null)
         {
-            return;
+            return false;
         }
 
-        job = stationRecord.Value.Item2.JobTitle;
+        deletedRecord = stationRecord.Value.Item2;
 
         _stationRecordsSystem.RemoveRecord(station, stationRecord.Value.Item1);
+        
+        return true;
     }
     
     private (StationRecordKey, GeneralStationRecord)? FindEntityStationRecordKey(EntityUid station, EntityUid uid)
@@ -352,7 +366,7 @@ public sealed class SSDStorageConsoleSystem : EntitySystem
             return;
         }
         
-        if (TryComp<ServerStorageComponent>(uid, out var storageComponent) && storageComponent.StoredEntities is not null)
+        if (TryComp<ServerStorageComponent>(uid, out var storageComponent) && storageComponent.StoredEntities != null)
         {
             var hasAccess = HasComp<EmaggedComponent>(uid) || _accessReaderSystem.IsAllowed(user, uid) || forseAccess;
             var storageState = hasAccess ?  
@@ -370,10 +384,6 @@ public sealed class SSDStorageConsoleSystem : EntitySystem
     
     private void SetStateForInterface(EntityUid uid, SSDStorageConsoleState storageConsoleState)
     {
-        var ui = _userInterface.GetUiOrNull(uid, SSDStorageConsoleKey.Key);
-        if (ui is not null)
-        {
-            _userInterface.SetUiState(ui, storageConsoleState);
-        }
+        _userInterface.TrySetUiState(uid, SSDStorageConsoleKey.Key, storageConsoleState);
     }
 }
