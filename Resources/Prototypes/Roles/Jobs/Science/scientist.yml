@@ -6,7 +6,7 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Science
-      time: 18000 # SS220-RoleTime
+      time: 25200 # Ganimed-RoleTime (500m)
   startingGear: ScientistGear
   icon: "Scientist"
   supervisors: job-supervisors-rd

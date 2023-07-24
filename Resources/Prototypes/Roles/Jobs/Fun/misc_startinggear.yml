@@ -42,7 +42,7 @@
     back: ClothingBackpackDuffelSyndicateAmmo
     mask: ClothingMaskGasDeathSquad
     eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetAltDeadSquad
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitDeathsquad
     suitstorage: YellowOxygenTankFilled
@@ -80,7 +80,7 @@
   equipment:
     jumpsuit: ClothingUniformJumpsuitOperative
     back: ClothingBackpackDuffelSyndicateOperative
-    ears: ClothingHeadsetAltSyndicate
+    ears: ClothingHeadsetAltNukeOps
     gloves: ClothingHandsGlovesCombat
     shoes: ClothingShoesBootsCombatFilled
     pocket1: BaseUplinkRadio40TC
@@ -98,7 +98,7 @@
     mask: ClothingMaskGasSyndicate
   # eyes: Night Vision Goggles whenever they're made
     eyes: ClothingEyesGlassesMeson
-    ears: ClothingHeadsetAltSyndicate
+    ears: ClothingHeadsetAltNukeOps
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitSyndie
     shoes: ClothingShoesBootsCombatFilled
@@ -119,7 +119,7 @@
     mask: ClothingMaskGasSyndicate
   # eyes: Night Vision Goggles whenever they're made
     eyes: ClothingEyesGlassesMeson
-    ears: ClothingHeadsetAltSyndicate
+    ears: ClothingHeadsetAltNukeOps
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitSyndieCommander
     shoes: ClothingShoesBootsCombatFilled
@@ -139,7 +139,7 @@
     back: ClothingBackpackDuffelSyndicateOperativeMedic
     mask: ClothingMaskBreathMedical
     eyes: ClothingEyesHudMedical
-    ears: ClothingHeadsetAltSyndicate
+    ears: ClothingHeadsetAltNukeOps
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitSyndieElite
     shoes: ClothingShoesBootsMagSyndie
@@ -249,7 +249,7 @@
     back: ClothingBackpackDuffelCBURN
     mask: ClothingMaskGasExplorer
     eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetERT
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitCBURN
     shoes: ClothingShoesBootsCombatFilled

@@ -5,11 +5,10 @@
   playTimeTracker: JobResearchAssistant
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 3600 # SS220-RoleTime
+      time: 7200 # Ganimed-RoleTime (120m)
   startingGear: ResearchAssistantGear
   icon: "ResearchAssistant"
   supervisors: job-supervisors-rd
-  canBeAntag: false
   access:
   - Research
   - Maintenance

@@ -20,6 +20,7 @@
   - type: EncryptionKey
     channels:
     - Common
+    - SecurityEveryone
     defaultChannel: Common
   - type: Sprite
     layers:
@@ -35,6 +36,7 @@
   - type: EncryptionKey
     channels:
     - Supply
+    - SecurityEveryone
     defaultChannel: Supply
   - type: Sprite
     layers:
@@ -53,7 +55,7 @@
     defaultChannel: CentCom
   - type: Sprite
     layers:
-    - state: crypt_blue
+    - state: crypt_green
     - state: nano_label
 
 - type: entity
@@ -70,6 +72,7 @@
     - Medical
     - Science
     - Security
+    - SecurityEveryone
     - Service
     - Supply
     defaultChannel: Command
@@ -90,7 +93,7 @@
     defaultChannel: Command
   - type: Sprite
     layers:
-    - state: crypt_silver
+    - state: crypt_gold
     - state: com_label
 
 - type: entity
@@ -202,7 +205,7 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeySyndie
-  name: blood-red encryption key
+  name: red encryption key
   description: An encryption key used by... wait... Who is owner of this chip?
   components:
   - type: EncryptionKey
@@ -211,5 +214,123 @@
     defaultChannel: Syndicate
   - type: Sprite
     layers:
+    - state: crypt_black
+    - state: synd_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyNukeOps
+  name: Nukie-blood encryption key
+  description: An encryption key used by... wait... nukie-blood?
+  components:
+  - type: EncryptionKey
+    channels:
+    - NukeOps
+    defaultChannel: NukeOps
+  - type: Sprite
+    layers:
     - state: crypt_red
     - state: synd_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyFullMaster
+  name: master encryption key
+  description: An encryption key used by everyone's bosses.
+  components:
+  - type: EncryptionKey
+    channels:
+    - Common
+    - SecurityEveryone
+    - Command
+    - Engineering
+    - Medical
+    - Science
+    - Security
+    - Service
+    - Supply
+    - ERTeam
+    - MobileTaskForces
+    - Fleet
+    - DeadSquad
+    - SpecialPurposeGroup
+    defaultChannel: Command
+  - type: Sprite
+    layers:
+    - state: crypt_blue
+    - state: cap_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyERT
+  name: ERT encryption key
+  description: An encryption key used by Emergency Responce Team.
+  components:
+  - type: EncryptionKey
+    channels:
+    - ERTeam
+    defaultChannel: ERTeam
+  - type: Sprite
+    layers:
+    - state: crypt_silver
+    - state: com_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyMTF
+  name: MTF encryption key
+  description: An encryption key used by Mobile Task Forces.
+  components:
+  - type: EncryptionKey
+    channels:
+    - MobileTaskForces
+    defaultChannel: MobileTaskForces
+  - type: Sprite
+    layers:
+    - state: crypt_silver
+    - state: com_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyFleet
+  name: Fleet encryption key
+  description: An encryption key used by NanoTrasen Fleet command.
+  components:
+  - type: EncryptionKey
+    channels:
+    - Fleet
+    defaultChannel: Fleet
+  - type: Sprite
+    layers:
+    - state: crypt_gold
+    - state: com_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeyDeadSquad
+  name: Jet-black encryption key
+  description: An encryption key used by *unintelligible*.
+  components:
+  - type: EncryptionKey
+    channels:
+    - DeadSquad
+    defaultChannel: DeadSquad
+  - type: Sprite
+    layers:
+    - state: crypt_black
+    - state: pirate_label
+
+- type: entity
+  parent: EncryptionKey
+  id: EncryptionKeySPG
+  name: SPG encryption key
+  description: An encryption key used by Special Purpose Group.
+  components:
+  - type: EncryptionKey
+    channels:
+    - SpecialPurposeGroup
+    defaultChannel: SpecialPurposeGroup
+  - type: Sprite
+    layers:
+    - state: crypt_silver
+    - state: com_label

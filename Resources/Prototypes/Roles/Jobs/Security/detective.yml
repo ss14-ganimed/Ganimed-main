@@ -6,7 +6,7 @@
   requirements:
   - !type:DepartmentTimeRequirement
     department: Security
-    time: 30000 # Corvax-RoleTime
+    time: 30000 # Ganimed-RoleTime (500m)
   startingGear: DetectiveGear
   icon: "Detective"
   supervisors: job-supervisors-hos

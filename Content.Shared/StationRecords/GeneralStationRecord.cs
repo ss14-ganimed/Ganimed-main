@@ -1,4 +1,5 @@
 using Content.Shared.Preferences;
+using Content.Shared.Security;
 using Robust.Shared.Enums;
 using Robust.Shared.Serialization;
 

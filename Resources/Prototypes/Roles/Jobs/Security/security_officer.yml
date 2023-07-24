@@ -6,7 +6,9 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 24000 # SS220-RoleTime
+      time: 25200 # Ganimed-RoleTime (420m)
+    - !type:OverallPlaytimeRequirement
+      time: 30000 # Ganimed-RoleTime (500m)
   startingGear: SecurityOfficerGear
   icon: "SecurityOfficer"
   supervisors: job-supervisors-hos

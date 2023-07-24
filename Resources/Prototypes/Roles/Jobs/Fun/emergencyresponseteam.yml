@@ -23,7 +23,7 @@
     gloves: ClothingHandsGlovesColorBlack
     outerClothing: ClothingOuterArmorBulletproof
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetAltERT
     belt: ClothingBeltSecurityWebbing
     pocket1: Flare
 
@@ -39,7 +39,7 @@
     outerClothing: ClothingOuterHardsuitERTLeader
     suitstorage: OxygenTankFilled
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetAltERT
     belt: ClothingBeltSecurityFilled
     pocket1: Flare
 
@@ -68,7 +68,7 @@
     gloves: ClothingHandsGlovesColorYellow
     outerClothing: ClothingOuterArmorBulletproof
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetERT
     belt: ClothingBeltChiefEngineerFilled
     pocket1: Flare
 
@@ -84,7 +84,7 @@
     outerClothing: ClothingOuterHardsuitERTEngineer
     suitstorage: OxygenTankFilled
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetERT
     belt: ClothingBeltChiefEngineerFilled
     pocket1: Flare
 
@@ -113,7 +113,7 @@
     gloves: ClothingHandsGlovesColorBlack
     outerClothing: ClothingOuterArmorBulletproof
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetERT
     belt: ClothingBeltSecurityWebbing
     pocket1: Flare
 
@@ -129,7 +129,7 @@
     outerClothing: ClothingOuterHardsuitERTSecurity
     suitstorage: OxygenTankFilled
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetERT
     belt: ClothingBeltSecurityWebbing
     pocket1: Flare
 
@@ -158,10 +158,10 @@
     gloves: ClothingHandsGlovesColorBlack
     outerClothing: ClothingOuterArmorBulletproof
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetERT
     belt: ClothingBeltMedicalFilled
     pocket1: HandheldHealthAnalyzer
-    pocket2: Flare
+    pocket2: SpecialNanitesInjector
 
 - type: startingGear
   id: ERTMedicalGearEVA
@@ -175,10 +175,10 @@
     outerClothing: ClothingOuterHardsuitERTMedical
     suitstorage: OxygenTankFilled
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetERT
     belt: ClothingBeltMedicalFilled
     pocket1: HandheldHealthAnalyzer
-    pocket2: Flare
+    pocket2: SpecialNanitesInjector
 
 # Janitor
 - type: job
@@ -204,7 +204,7 @@
     gloves: ClothingHandsGlovesColorBlack
     outerClothing: ClothingOuterArmorBulletproof
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetERT
     belt: ClothingBeltJanitorFilled
     pocket1: Flare
 
@@ -219,6 +219,6 @@
     outerClothing: ClothingOuterHardsuitERTJanitor
     suitstorage: OxygenTankFilled
     id: ERTLeaderPDA
-    ears: ClothingHeadsetAltCommand
+    ears: ClothingHeadsetERT
     belt: ClothingBeltJanitorFilled
     pocket1: Flare

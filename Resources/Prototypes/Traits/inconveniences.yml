@@ -5,3 +5,18 @@
   components:
     - type: LightweightDrunk
       boozeStrengthMultiplier: 2
+
+- type: trait
+  id: Monochromatic
+  name: trait-monochromatic-name
+  description: trait-monochromatic-desc
+  components:
+    - type: Monochromacy
+
+- type: trait
+  id: FelinidAncestry
+  name: trait-felinid-name
+  description: trait-felinid-desc
+  components:
+    - type: OwOAccent
+    - type: Felinid
