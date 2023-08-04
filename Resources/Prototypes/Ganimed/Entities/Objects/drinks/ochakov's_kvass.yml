@@ -1,0 +1,26 @@
+- type: reagent 
+  id: OchakovKVass 
+  name: reagent-name-OchakovKVass 
+  parent: BaseDrink 
+  desc: reagent-desc-OchakovKVass #Описание из .ftl
+  physicalDesc: reagent-physical-desc-ocahov-kvass #Выглядит ... (из .ftl)
+  flavor: flavor-drink-gigakvass #На вкус ... (из .ftl)
+  color: "#4D220E" 
+  metabolisms:
+    Medicine:
+      effects:
+      - !type:GenericStatusEffect
+        key: Drunk
+        time: 2.0
+        type: Remove
+  
+- type: reaction 
+  id: ReactCummingKvass 
+  reactants: 
+    Kvass:
+      amount: 2
+    Beer: 
+      amount: 2    
+  products: 
+   OchakovKVass: 5
+   Ephedrine: 0.5

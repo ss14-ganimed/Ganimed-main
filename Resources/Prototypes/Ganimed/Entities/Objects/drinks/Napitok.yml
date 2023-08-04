@@ -1,0 +1,18 @@
+- type: entity #Кружка с напитком
+  parent: DrinkBaseCup #Не трогать
+  id: DrinkOchakovKvass
+  name: Ocakovskiy Kvass 
+  description: Real kvass for real gigachads
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: OchakovKVass
+          Quantity: 26
+        - ReagentId: Ephedrine
+          Quantity: 4
+  - type: Drink
+  - type: Sprite
+    sprite: Ganimed/Objects/Ochkvass.rsi

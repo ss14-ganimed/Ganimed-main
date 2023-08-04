@@ -1,6 +1,6 @@
 ent-BaseWeaponRifle = BaseWeaponRifle
     .desc = Дерзай — налетай, целься и стреляй.
-ent-WeaponRifleAk = АКМС
+ent-WeaponRifleAk = АКМ
     .desc = Культовое оружие всех войн. Использует патроны калибра .30 винтовочный.
     .suffix = Автомат
 ent-WeaponRifleM90GrenadeLauncher = М-90gl
