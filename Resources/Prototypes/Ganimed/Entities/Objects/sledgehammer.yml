@@ -1,0 +1,36 @@
+- type: entity
+  name: sledgehammer
+  parent: BaseItem
+  id: Sledgehammer
+  description: Basic but reliable sledgehammer. Perfect for "knock-knock" jokes.
+  components:
+  - type: Sprite
+    sprite: Ganimed/Objects/sledgehammer.rsi
+    netsync: false
+    state: icon
+  - type: MeleeWeapon
+    attackRate: 0.6
+    damage:
+      types:
+        Blunt: 20
+        Structural: 20
+    angle: 60
+    animation: WeaponArcSlash
+  - type: ItemCooldown
+  - type: Wieldable
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 20
+        Structural: 60
+  - type: StaminaDamageOnHit
+    damage: 20
+  - type: Item
+    size: 150
+  - type: Clothing
+    sprite: Ganimed/Objects/sledgehammer.rsi
+    quickEquip: false
+    slots:
+    - back
+  - type: StaticPrice
+    price: 100
